@@ -117,10 +117,10 @@ const attractions = [
 
 const tourismCategoryCopy: Record<string, { day: string; night: string }> = {
   pousadas: { day: "Escolha sua hospedagem entre cafés frescos, quartos confortáveis e vistas inesquecíveis para a serra.", night: "Escolha um quarto, tranque a porta e não responda caso a recepção ligue depois das três." },
-  gastronomia: { day: "Da cozinha costeira ao jantar cinco estrelas, SunnyValley serve experiências para todos os gostos.", night: "As cozinhas continuam funcionando depois que os cozinheiros vão embora. Não peça o prato que não está no cardápio." },
-  aguas: { day: "Praias, marina, pesca e passeios de barco para descobrir a península pelo melhor ângulo.", night: "A água permanece calma demais à noite. Se alguma coisa acenar do píer, não retribua." },
-  trilhas: { day: "Rotas sinalizadas, cachoeiras, mirantes e áreas de acampamento em meio aos pinheiros do norte.", night: "As rotas continuam sinalizadas, mas as placas já não apontam para os mesmos lugares." },
-  paraquedismo: { day: "Voe sobre as montanhas e veja toda a costa de SunnyValley em uma experiência panorâmica.", night: "Do alto, você finalmente verá por que algumas estradas foram retiradas dos mapas." },
+  gastronomia: { day: "Da cozinha costeira ao jantar cinco estrelas, SunnyValley serve experiências para todos os gostos.", night: "Boletins da vigilância registram movimento em cozinhas já fechadas. Os proprietários atribuem os ruídos aos prédios antigos." },
+  aguas: { day: "Praias, marina, pesca e passeios de barco para descobrir a península pelo melhor ângulo.", night: "Pescadores relatam uma luz parada além do píer em noites sem embarcações registradas." },
+  trilhas: { day: "Rotas sinalizadas, cachoeiras, mirantes e áreas de acampamento em meio aos pinheiros do norte.", night: "A prefeitura recolheu placas não oficiais encontradas nas trilhas. Nenhum departamento assumiu a instalação delas." },
+  paraquedismo: { day: "Voe sobre as montanhas e veja toda a costa de SunnyValley em uma experiência panorâmica.", night: "Relatórios de voo mencionam luzes em uma antiga estrada florestal retirada das rotas oficiais." },
   historia: { day: "Conheça a arquitetura, os arquivos e a fé inabalável das famílias que construíram o vale.", night: "Os moradores mantêm sua fé. Ninguém se lembra do que havia ali antes dela." },
 };
 
@@ -136,43 +136,43 @@ type TourismPlace = {
 };
 
 const tourismPlaces: TourismPlace[] = [
-  { category: "trilhas", name: "Mirante Raton Canyon", type: "Mirante e trilha", location: "Raton Canyon", image: "/assets/mirante-raton-canyon.webp", text: "Um mirante cercado por pinheiros, com vista panorâmica para os paredões do cânion e acesso pelas trilhas oficiais do vale.", nightText: "Quando a neblina cobre o cânion, o mapa do mirante parece indicar uma trilha que não existe durante o dia." },
-  { category: "aguas", name: "Praia Aurora", type: "Praia", location: "Costa Norte", image: "/assets/praia-aurora.webp", text: "Areia clara, águas tranquilas e estrutura para passar o dia inteiro à beira-mar.", nightText: "Depois do pôr do sol, as cadeiras continuam mudando de lugar sem deixar marcas na areia." },
+  { category: "trilhas", name: "Mirante Raton Canyon", type: "Mirante e trilha", location: "Raton Canyon", image: "/assets/mirante-raton-canyon.webp", text: "Um mirante cercado por pinheiros, com vista panorâmica para os paredões do cânion e acesso pelas trilhas oficiais do vale.", nightText: "Guias antigos mencionam uma rota apagada dos mapas. Em noites de neblina, ainda surgem fitas de trilha amarradas naquela direção." },
+  { category: "aguas", name: "Praia Aurora", type: "Praia", location: "Costa Norte", image: "/assets/praia-aurora.webp", text: "Areia clara, águas tranquilas e estrutura para passar o dia inteiro à beira-mar.", nightText: "Funcionários dizem encontrar as cadeiras voltadas para o mar pela manhã, mesmo após deixarem a praia organizada na noite anterior." },
   { category: "pousadas", name: "Stag's Lodge", type: "Pousada e loja", location: "Mount Chiliad", image: "/assets/stags-lodge-day.webp", nightImage: "/assets/stags-lodge-night.webp", text: "Quartos acolhedores, café da manhã caseiro e uma pequena loja para viajantes da serra.", nightText: "As luzes permanecem acesas. A recepção insiste que nenhum quarto está ocupado." },
-  { category: "pousadas", name: "Stag's Motel", type: "Ala da Pousada Stag's", location: "Mount Chiliad", image: "/assets/stags-motel-atualizado.webp", text: "A ala de estrada da Pousada Stag's oferece quartos simples e silenciosos aos pés da floresta.", nightText: "Não conte as portas. Na segunda contagem sempre aparece uma a mais." },
+  { category: "pousadas", name: "Stag's Motel", type: "Ala da Pousada Stag's", location: "Mount Chiliad", image: "/assets/stags-motel-atualizado.webp", text: "A ala de estrada da Pousada Stag's oferece quartos simples e silenciosos aos pés da floresta.", nightText: "Uma planta de 1977 registra um quarto que a administração afirma nunca ter existido." },
   { category: "gastronomia", name: "Mojito Inn", type: "Bar e restaurante", location: "Paleto Bay", image: "/assets/mojito-inn.webp", text: "Drinks tropicais, pratos rápidos e encontros descontraídos no centro de Paleto.", nightText: "O último cliente nunca aparece nas fotografias, embora sempre deixe a cadeira molhada." },
   { category: "gastronomia", name: "Marina Étoile", type: "Restaurante cinco estrelas", location: "Marina Crystal Bay", image: "/assets/restaurante-marina-5-estrelas.webp", text: "Alta gastronomia, menu degustação sazonal e serviço elegante diante da marina.", nightText: "A reserva das 23h nunca tem nome, mas a mesa permanece posta." },
   { category: "trilhas", name: "Trilha Mount Chiliad", type: "Trilha ecológica", location: "Floresta Norte", image: "/assets/trilha-mount-chiliad.webp", text: "Uma rota oficial entre pinheiros, formações rochosas e vistas do vale.", nightText: "A placa pede que você siga a trilha. A trilha, por outro lado, pede outra coisa." },
   { category: "gastronomia", name: "Hookies Seafood", type: "Restaurante de frutos do mar", location: "Costa Norte", image: "/assets/hookies-seafood.webp", text: "Peixes frescos, frutos do mar, mesas ao ar livre e o pôr do sol da estrada costeira.", nightText: "Não pergunte de onde veio o prato especial quando o mar estiver completamente quieto." },
   { category: "gastronomia", name: "The Hen House", type: "Bar e boate", location: "Paleto Bay", image: "/assets/hen-house-nightclub-4k.webp", text: "Bar, pista de dança e noites animadas para quem prefere conhecer o lado mais vibrante da cidade.", nightText: "A música termina no horário. Se continuar ouvindo passos na pista, não volte para buscar nada." },
   { category: "aguas", name: "Marina Crystal Bay", type: "Marina", location: "Sandy Shores", image: "/assets/marina-crystal-bay.webp", text: "Águas cristalinas, píeres, pesca e acesso para passeios de barco durante o dia.", nightText: "Nenhuma embarcação sai à noite. As que chegam não constam no registro da marina." },
-  { category: "pousadas", name: "Pousada Sicilia", type: "Pousada histórica", location: "Sandy Shores", image: "/assets/pousada-sicilia.webp", text: "Arquitetura clássica, pátio interno, café fresco e quartos próximos à avenida principal.", nightText: "Se o pátio parecer maior ao voltar para o quarto, não tente encontrar a saída sozinho." },
-  { category: "historia", name: "A Fé dos Moradores", type: "Tradição do vale", location: "Centro Histórico", image: "/assets/primeira-capela.webp", text: "A fé dos moradores de SunnyValley é silenciosa, antiga e inabalável. Em tempos difíceis, toda janela recebe uma vela acesa.", nightText: "Na neblina, as velas se acendem antes que alguém chegue para acendê-las." },
-  { category: "historia", name: "Hospital de Sandy", type: "Patrimônio histórico", location: "Sandy Shores", image: "/assets/hospital-sandy-monumento-4k.webp", text: "Erguido durante a expansão de Sandy, o hospital preserva sua arquitetura colonial e o pátio que acolheu os primeiros atendimentos da região. No centro, o monumento homenageia o primeiro prefeito de SunnyValley, responsável por financiar os primeiros leitos e transformar um pequeno posto de socorro no hospital da cidade.", nightText: "O monumento homenageia o primeiro prefeito. Em noites de neblina, funcionários dizem que sua sombra aponta para uma ala que não aparece na planta do hospital." },
+  { category: "pousadas", name: "Pousada Sicilia", type: "Pousada histórica", location: "Sandy Shores", image: "/assets/pousada-sicilia.webp", text: "Arquitetura clássica, pátio interno, café fresco e quartos próximos à avenida principal.", nightText: "Uma planta encontrada na recepção desenha o pátio com dimensões diferentes das registradas pela prefeitura." },
+  { category: "historia", name: "A Fé dos Moradores", type: "Tradição do vale", location: "Centro Histórico", image: "/assets/primeira-capela.webp", text: "A fé dos moradores de SunnyValley é silenciosa, antiga e inabalável. Em tempos difíceis, cada família coloca uma vela na janela.", nightText: "Fotografias de noites de neblina mostram velas acesas nas ruínas da Primeira Capela. Nenhum morador admite tê-las colocado ali." },
+  { category: "historia", name: "Hospital de Sandy", type: "Patrimônio histórico", location: "Sandy Shores", image: "/assets/hospital-sandy-monumento-4k.webp", text: "O hospital preserva sua arquitetura histórica e o pátio dos primeiros atendimentos da região. Seu monumento homenageia o primeiro prefeito de SunnyValley, responsável por financiar os primeiros leitos da cidade.", nightText: "Uma fotografia antiga do monumento mostra, ao fundo, a entrada de uma ala que não aparece nas plantas atuais do hospital." },
   { category: "historia", name: "Universidade de Sandy", type: "Patrimônio educacional", location: "Sandy Shores", image: "/assets/universidade-sandy.webp", text: "A universidade reúne estudantes de toda SunnyValley e preserva parte importante da história acadêmica da região, unindo formação, memória e tradição comunitária.", nightText: "Os corredores ficam vazios depois da última aula. Ainda assim, algumas salas continuam marcando presença no livro de chamada." },
-  { category: "paraquedismo", name: "SkyVale", type: "Base de paraquedismo e bondinho", location: "Mount Chiliad", image: "/assets/skyvale-bondinho.webp", text: "Suba de bondinho até a base e aproveite saltos panorâmicos sobre as montanhas, a floresta e toda a costa norte.", nightText: "Durante a subida, não conte as cabines na linha. Uma delas nunca chega à estação." },
-  { category: "paraquedismo", name: "O Norte Visto do Alto", type: "Experiência panorâmica", location: "Paleto Bay", image: "/assets/paisagem-norte-4k.webp", text: "Veja o norte inteiro do alto — inclusive algumas estradas que os mapas ainda não tiveram tempo de conhecer.", nightText: "A cidade parece menor de cima. A sombra sobre ela, não." },
+  { category: "paraquedismo", name: "SkyVale", type: "Base de paraquedismo e bondinho", location: "Mount Chiliad", image: "/assets/skyvale-bondinho.webp", text: "Suba de bondinho até a base e aproveite saltos panorâmicos sobre as montanhas, a floresta e toda a costa norte.", nightText: "O livro da estação registra uma cabine retirada de serviço em 1986. Alguns passageiros ainda descrevem seu número nos relatos de subida." },
+  { category: "paraquedismo", name: "O Norte Visto do Alto", type: "Experiência panorâmica", location: "Paleto Bay", image: "/assets/paisagem-norte-4k.webp", text: "Veja o norte inteiro do alto, das montanhas de Chiliad até as praias de Paleto Bay.", nightText: "Pilotos relatam luzes em uma estrada abandonada ao norte. O xerifado atribui o fenômeno a acampamentos irregulares." },
   { category: "trilhas", name: "Trilha dos Pinheiros", type: "Trilha ecológica", location: "Floresta Norte", image: "/assets/trilha-pinheiros-4k.webp", text: "Uma subida tranquila entre pinheiros, flores silvestres e mirantes naturais do vale.", nightText: "Ao anoitecer, a trilha parece mais longa. Não siga pegadas que começam no meio do caminho." },
 ];
 
 type Property = { category: string; name: string; label: string; location: string; rooms: string; images: string[]; text: string; nightText: string };
 
 const properties: Property[] = [
-  { category: "casas", name: "Mansão Blackwood", label: "Casa premium", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-blackwood-exterior.webp", "/assets/mansion-blackwood-interior.webp"], text: "Arquitetura moderna integrada à montanha, interior amplo, deck privativo e acesso direto às águas do vale.", nightText: "As janelas refletem um cômodo que não aparece na planta." },
-  { category: "casas", name: "Mansão Serenity", label: "Mansão costeira", location: "Paleto Bay", rooms: "", images: ["/assets/azurecliff-estate-exterior.webp", "/assets/azurecliff-estate-interior.webp"], text: "Uma residência contemporânea à beira-mar, com fachada panorâmica, piscina, amplos terraços e interiores de pé-direito duplo voltados para a costa de Paleto.", nightText: "As paredes de vidro mostram o mar inteiro. Algumas noites, porém, refletem uma casa diferente atrás de você." },
-  { category: "casas", name: "Mansão do Vinhedo", label: "Mansão clássica", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-vinhedo-exterior.webp", "/assets/mansao-vinhedo-interior.webp"], text: "Uma propriedade clássica cercada por vinhedos, com jardins reservados, arquitetura mediterrânea e amplos salões para receber convidados.", nightText: "Os vinhedos parecem vazios ao anoitecer. Mesmo assim, alguém sempre atravessa as fileiras antes das luzes da casa se apagarem." },
-  { category: "casas", name: "Mansão Tropical", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-tropical-exterior-piscina.webp", "/assets/mansao-tropical-exterior-jardim.webp", "/assets/mansao-tropical-interior.webp"], text: "Arquitetura contemporânea cercada por palmeiras, áreas externas amplas, piscina panorâmica e ambientes internos pensados para lazer e recepções.", nightText: "As palmeiras continuam se movendo quando o vento para. A piscina reflete luzes de cômodos que permanecem apagados." },
-  { category: "penthouses", name: "Penthouse Grand Valley", label: "Cobertura familiar", location: "Sandy Shores", rooms: "4 quartos", images: ["/assets/penthouse-4-quartos.webp"], text: "Uma cobertura espaçosa com cozinha clássica e ambientes para receber todo o grupo.", nightText: "Há quatro quartos no anúncio. De madrugada, o corredor conduz ao quinto." },
-  { category: "penthouses", name: "Penthouse Vista Norte", label: "Cobertura compacta", location: "Sandy Shores", rooms: "1 quarto", images: ["/assets/penthouse-1-quarto.webp"], text: "Planta funcional, cozinha contemporânea e uma localização central para morar sozinho.", nightText: "Você alugou para uma pessoa. A mesa está posta para duas." },
-  { category: "penthouses", name: "Penthouse Sunset", label: "Cobertura contemporânea", location: "Sandy Shores", rooms: "2 quartos", images: ["/assets/penthouse-2-quartos.webp"], text: "Sala confortável, dois quartos e iluminação acolhedora próxima aos serviços de Sandy.", nightText: "As cortinas se fecham antes do sol desaparecer. Deixe que terminem." },
+  { category: "casas", name: "Mansão Blackwood", label: "Casa premium", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-blackwood-exterior.webp", "/assets/mansion-blackwood-interior.webp"], text: "Arquitetura moderna integrada à montanha, interior amplo, deck privativo e acesso direto às águas do vale.", nightText: "Uma fotografia do antigo proprietário mostra uma porta hoje substituída por uma parede." },
+  { category: "casas", name: "Mansão Serenity", label: "Mansão costeira", location: "Paleto Bay", rooms: "", images: ["/assets/azurecliff-estate-exterior.webp", "/assets/azurecliff-estate-interior.webp"], text: "Uma residência contemporânea à beira-mar, com fachada panorâmica, piscina, amplos terraços e interiores de pé-direito duplo voltados para a costa de Paleto.", nightText: "Uma fotografia noturna das paredes de vidro parece refletir outra fachada atrás do fotógrafo. A casa estava vazia quando a imagem foi registrada." },
+  { category: "casas", name: "Mansão do Vinhedo", label: "Mansão clássica", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-vinhedo-exterior.webp", "/assets/mansao-vinhedo-interior.webp"], text: "Uma propriedade clássica cercada por vinhedos, com jardins reservados, arquitetura mediterrânea e amplos salões para receber convidados.", nightText: "Vigias relatam uma figura atravessando as fileiras do vinhedo antes do fechamento. Nenhuma invasão foi confirmada." },
+  { category: "casas", name: "Mansão Tropical", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-tropical-exterior-piscina.webp", "/assets/mansao-tropical-exterior-jardim.webp", "/assets/mansao-tropical-interior.webp"], text: "Arquitetura contemporânea cercada por palmeiras, áreas externas amplas, piscina panorâmica e ambientes internos pensados para lazer e recepções.", nightText: "Uma sequência de fotografias da piscina mostra luzes em cômodos que constavam como desocupados naquela noite." },
+  { category: "penthouses", name: "Penthouse Grand Valley", label: "Cobertura familiar", location: "Sandy Shores", rooms: "4 quartos", images: ["/assets/penthouse-4-quartos.webp"], text: "Uma cobertura espaçosa com cozinha clássica e ambientes para receber todo o grupo.", nightText: "O anúncio confirma quatro quartos. Um inventário antigo, porém, descreve móveis pertencentes a um quinto dormitório." },
+  { category: "penthouses", name: "Penthouse Vista Norte", label: "Cobertura compacta", location: "Sandy Shores", rooms: "1 quarto", images: ["/assets/penthouse-1-quarto.webp"], text: "Planta funcional, cozinha contemporânea e uma localização central para morar sozinho.", nightText: "O laudo de vistoria cita louça para duas pessoas, embora o antigo contrato tivesse apenas um morador." },
+  { category: "penthouses", name: "Penthouse Sunset", label: "Cobertura contemporânea", location: "Sandy Shores", rooms: "2 quartos", images: ["/assets/penthouse-2-quartos.webp"], text: "Sala confortável, dois quartos e iluminação acolhedora próxima aos serviços de Sandy.", nightText: "Vizinhos relatam ver as cortinas fechadas em noites nas quais o imóvel consta como vazio." },
   { category: "casas", name: "Casas em Sandy e Paleto", label: "Coleção residencial", location: "Sandy Shores • Paleto Bay", rooms: "", images: ["/assets/casa-sandy-desert-rose.webp", "/assets/casa-sandy-palm-haven.webp", "/assets/casa-sandy-interior.webp"], text: "Mais de vinte casas estão disponíveis entre Sandy e Paleto. As fotografias mostram apenas alguns exemplos; cada imóvel possui fachada, localização e opções de interior próprias para você escolher.", nightText: "Mais de vinte casas continuam disponíveis. Algumas parecem ocupadas nas fotografias, mesmo quando os registros dizem o contrário." },
 ];
 
 const vipPlans = [
-  { name: "Turista", price: "R$ 100", period: "30 dias", inheritance: "3.000", mark: "Bilhete de entrada", benefits: ["1 veículo da concessionária", "1 casa em Paleto", "1 vaga adicional de garagem", "Salário VIP a cada 30 minutos", "Tag no Discord", "Spotify Premium + verificado no Instagram"] },
-  { name: "Morador", price: "R$ 250", period: "30 dias", inheritance: "5.000", mark: "Chaves do vale", benefits: ["2 veículos da concessionária", "1 moto da concessionária", "1 casa em Sandy ou Paleto", "3 vagas adicionais de garagem", "Salário VIP ampliado", "Tag no Discord", "Spotify Premium + verificado no Instagram"] },
-  { name: "Herdeiro do Vale", price: "R$ 400", period: "30 dias", inheritance: "10.000", mark: "Legado de família", featured: true, benefits: ["4 veículos + 1 motocicleta", "1 barco", "1 casa premium ou penthouse", "1 personagem adicional até o fim da temporada", "Salário VIP superior", "Mochila não perde", "Tag no Discord", "Spotify Premium + verificado no Instagram"] },
-  { name: "O Pacto", price: "R$ 550", period: "até o wipe", inheritance: "20.000", mark: "Não pergunte o preço real", benefits: ["5 veículos + 2 motocicletas", "Mansão e penthouse", "1 helicóptero + 2 barcos", "2 personagens adicionais", "Maior salário VIP", "Tag no Discord", "Spotify Premium + verificado no Instagram"] },
+  { name: "Turista", price: "R$ 100", period: "30 dias", inheritance: "3.000", mark: "Bilhete de entrada", benefits: ["1 veículo disponível no catálogo", "1 casa em Paleto", "Tag exclusiva no Discord", "Prioridade no atendimento de benefícios", "Participação em eventos para apoiadores"] },
+  { name: "Morador", price: "R$ 250", period: "30 dias", inheritance: "5.000", mark: "Chaves do vale", benefits: ["2 veículos + 1 motocicleta do catálogo", "1 casa em Sandy ou Paleto", "Tag exclusiva no Discord", "Atendimento prioritário", "Reserva antecipada em eventos da cidade"] },
+  { name: "Herdeiro do Vale", price: "R$ 400", period: "30 dias", inheritance: "10.000", mark: "Legado de família", featured: true, benefits: ["4 veículos + 1 motocicleta do catálogo", "1 barco disponível", "1 casa premium ou penthouse", "Consultoria para história do personagem", "Tag exclusiva e atendimento prioritário"] },
+  { name: "O Pacto", price: "R$ 550", period: "até o wipe", inheritance: "20.000", mark: "Não pergunte o preço real", benefits: ["5 veículos + 2 motocicletas do catálogo", "Mansão e penthouse", "1 helicóptero + 2 barcos disponíveis", "Consultoria narrativa com a equipe de lore", "Tag exclusiva e prioridade máxima no atendimento"] },
 ];
 
 const punishmentRows = [
@@ -232,21 +232,6 @@ export default function Home() {
       window.removeEventListener("keydown", closeOnEscape);
     };
   }, [articleOpen, editionOpen, archiveOpen, archiveReportOpen, seaWitchOpen, tourismCategoryOpen, galleryOpen, propertyOpen]);
-
-  useEffect(() => {
-    const startMusic = () => {
-      const audio = audioRef.current;
-      if (!audio) return;
-      audio.volume = 0.07;
-      void audio.play().then(() => setMusicOn(true)).catch(() => undefined);
-    };
-    window.addEventListener("pointerdown", startMusic, { once: true });
-    window.addEventListener("keydown", startMusic, { once: true });
-    return () => {
-      window.removeEventListener("pointerdown", startMusic);
-      window.removeEventListener("keydown", startMusic);
-    };
-  }, []);
 
   const toggleMusic = () => {
     const audio = audioRef.current;
@@ -405,12 +390,15 @@ export default function Home() {
           <span className="brand-lockup"><img className="brand-wordmark" src="/assets/sunnyvalley-wordmark.png" alt="SunnyValley" /><small>Desde 1898</small></span>
         </a>
         <div className="nav-links">
-          <a href="#cidade">A cidade</a><a href="#turismo">Turismo</a><a href="#lore">Lore</a><a href="#jornal">Jornal</a><a href="#imoveis">Imóveis</a><a href="#regras">Regras</a><a href="#vips">VIPs</a>
+          <a href="#cidade">A cidade</a><a href="#turismo">Turismo</a><a href="#lore">Histórias do vale</a><a href="#imoveis">Imóveis</a><a href="#regras">Regras</a><a href="#vips">VIPs</a>
         </div>
+        <details className="mobile-nav">
+          <summary>Menu</summary>
+          <div><a href="#cidade">A cidade</a><a href="#turismo">Turismo</a><a href="#lore">Histórias do vale</a><a href="#imoveis">Imóveis</a><a href="#regras">Regras</a><a href="#vips">VIPs</a></div>
+        </details>
         <button className="theme-toggle" type="button" onClick={toggleTheme} aria-pressed={darkMode} aria-label={darkMode ? "Ativar modo claro" : "Ativar modo escuro"}>
           <img src={darkMode ? "/assets/sol-inteiro.webp" : "/assets/lua.webp"} alt="" aria-hidden="true" /><small>{darkMode ? "Modo claro" : "Modo escuro"}</small>
         </button>
-        <a className="nav-ticket" href={TICKET_DISCORD} target="_blank" rel="noreferrer">Compre sua passagem</a>
       </nav>
 
       <header className="hero" id="inicio">
@@ -452,12 +440,12 @@ export default function Home() {
             <div>
               <h2>{darkMode ? "Você chegou antes. Só não se recorda." : "As férias perfeitas, desde 1898."}</h2>
               <p className="large-copy">{darkMode ? "O cartão-postal estava endereçado com a sua letra. Ninguém sabe quem o enviou, mas todos os moradores já esperavam por você." : "SunnyValley é aquele refúgio dos sonhos que parecia existir apenas em cartões-postais: praias de águas calmas, florestas densas, trilhas ecológicas e uma arquitetura histórica cheia de personalidade."}</p>
-              <p>{darkMode ? "As lojas fecharam cedo. As janelas continuam acesas. Não se preocupe com a silhueta que acompanha o ônibus desde a última curva — ela só quer ter certeza de que você não erre o caminho." : "Durante o dia, o comércio se movimenta, as pousadas servem café fresco e os moradores recebem visitantes com uma hospitalidade impecável. Pegue o ônibus, atravesse de balsa ou siga pela estrada do norte. Seu ingresso já sabe o caminho."}</p>
+              <p>{darkMode ? "As lojas fecharam cedo. Um motorista registrou que a mesma silhueta apareceu em três curvas diferentes da estrada. O xerifado arquivou o relato como efeito da neblina." : "Durante o dia, o comércio se movimenta, as pousadas servem café fresco e os moradores recebem visitantes com uma hospitalidade impecável. Chegue pela estrada do norte e comece sua história no vale."}</p>
             </div>
             <div className="fact-board">
               <div><strong>1898</strong><span>recebendo turistas</span></div>
               <div><strong>06</strong><span>experiências oficiais</span></div>
-              <div><strong>03</strong><span>formas de chegar</span></div>
+              <div><strong>17</strong><span>lugares no guia</span></div>
               <div><strong>01</strong><span>viagem inesquecível</span></div>
               <blockquote>“Quem entra no vale simplesmente não quer ir embora.”</blockquote>
             </div>
@@ -472,7 +460,7 @@ export default function Home() {
         <section className="section attractions" id="turismo">
           <div className="section-heading">
             <div><span className="section-label">{darkMode ? "Todos os lugares estão abertos" : "Guia oficial de turismo"}</span><h2>{darkMode ? <>Há algo observando<br />todos. Sempre.</> : <>Há algo para todos.<br />Quase sempre.</>}</h2></div>
-            <p>{darkMode ? "Escolha com cuidado. Alguns lugares aparecem no mapa apenas depois que você passa por eles, e alguns guias nunca foram contratados pela cidade." : "Escolha seu passeio, pegue seu ingresso e siga as recomendações dos guias locais. Elas existem exclusivamente para o seu conforto."}</p>
+            <p>{darkMode ? "Escolha com cuidado. Alguns guias foram encontrados sem assinatura nos arquivos da recepção, e ninguém da prefeitura reconhece as rotas marcadas neles." : "Escolha seu passeio, pegue seu ingresso e siga as recomendações dos guias locais. Elas existem exclusivamente para o seu conforto."}</p>
           </div>
           <div className="attraction-grid tourism-categories" role="tablist" aria-label="Categorias turísticas">
             {attractions.map((item, index) => <button className={`attraction-card ${activeTourism === item.id ? "active" : ""}`} type="button" onClick={() => showTourismCategory(item.id)} key={item.title}><span className="card-number">0{index + 1}</span><span className="card-icon" aria-hidden="true">{item.icon}</span><h3>{item.title}</h3><p>{darkMode ? tourismCategoryCopy[item.id].night : item.text}</p><b>Ver lugares <span aria-hidden="true">→</span></b></button>)}
@@ -489,7 +477,7 @@ export default function Home() {
             <div className="lore-hero-copy">
               <span className="section-label light">Arquivo oficial da cidade</span>
               <h2>“Quem entra no vale simplesmente não quer ir embora.”</h2>
-              <p>Se você recebeu um cartão-postal de SunnyValley, considere-se oficialmente convidado! Pegue seu ingresso e escolha como deseja iniciar a viagem: embarque no ônibus de turismo pelas estradas do norte ou atravesse as águas tranquilas a bordo da nossa balsa.</p>
+              <p>Se você recebeu um cartão-postal de SunnyValley, considere-se oficialmente convidado. Pegue seu ingresso, siga pela estrada do norte e guarde a data da chegada. Os arquivos da cidade gostam de datas exatas.</p>
             </div>
           </div>
 
@@ -497,9 +485,8 @@ export default function Home() {
             <article className="lore-chapter lore-vacation">
               <span className="chapter-number">Capítulo I</span>
               <h3>As Férias Perfeitas</h3>
-              <p>SunnyValley é aquele refúgio dos sonhos que você imaginava existir apenas em cartões-postais. Localizada em nossa linda península norte, a cidade é cercada por praias de águas calmas e cristalinas, florestas densas perfeitas para acampamentos em família, trilhas ecológicas e uma arquitetura colonial charmosa que fará você se sentir em casa.</p>
-              <p>Durante o dia, SunnyValley é impecável. O sol brilha forte, o comércio local permanece movimentado e nossas atrações oferecem diversão para todas as idades. Você pode pescar, passear de lancha, saltar de paraquedas sobre as montanhas ou simplesmente descansar enquanto observa a paisagem.</p>
-              <p>E os moradores? <em>Ah</em>, são as pessoas mais gentis e calorosas que você conhecerá! Eles recebem os visitantes com sorrisos largos, oferecem tortas frescas nas janelas, indicam os melhores pontos de pesca e insistem, do fundo do coração, para que você aproveite cada milissegundo da sua estadia.</p>
+              <p>Fundada oficialmente em 1898, SunnyValley cresceu entre a pesca, as pousadas da estrada e as famílias que transformaram o norte em lar. Durante o dia, praias, trilhas, comércio e arquitetura histórica sustentam a imagem impecável impressa nos cartões-postais.</p>
+              <p>Os moradores recebem turistas com educação, indicam os melhores pontos de pesca e respeitam a privacidade de quem chega. Só evitam conversar sobre os sinos da floresta, as manchas deixadas pela chuva e as ruínas da Primeira Capela.</p>
               <blockquote>Respire fundo, relaxe e aproveite…</blockquote>
             </article>
 
@@ -514,7 +501,7 @@ export default function Home() {
               <p>Então responderão com uma voz mansa, quase cantada, repetindo uma antiga cantiga que todos em SunnyValley parecem conhecer de cor. Antes que você compreenda as palavras, a porta será fechada.</p>
               <div className="lore-after-dark">
                 <p>Depois disso, SunnyValley não fica deserta. Ela apenas parece estar… <em>esperando.</em></p>
-                <p>Se decidir entrar no carro, retornar ao ônibus ou correr até a balsa para deixar a cidade… <em>bem, talvez seja melhor não tentar, querido turista.</em> Mas, se realmente insistir, procure não viajar sozinho. E caso a estrada se repita, algumas horas desapareçam ou alguém surja no banco ao seu lado, respire fundo e mantenha a calma. <em>Deve ser apenas o cansaço das férias!</em></p>
+                <p>Relatórios antigos descrevem motoristas que reconheceram a mesma placa várias vezes, relógios encontrados com horas de atraso e marcas molhadas em bancos de carros que viajavam vazios. O xerifado atribuiu os casos ao cansaço, à neblina e à desorientação nas estradas do norte.</p>
                 <p><strong>Se conseguir retornar, recomendamos que não conte para ninguém o que viu enquanto tentava deixar SunnyValley.</strong> As pessoas de fora podem ser terrivelmente preconceituosas e acabar usando palavras tão desagradáveis como… bem… <em>louco.</em></p>
               </div>
               <blockquote>Naturalmente, tudo isso faz parte do folclore local.</blockquote>
@@ -526,7 +513,7 @@ export default function Home() {
               <div className="guidance-grid">
                 <article><strong>01</strong><p><b>Se a neblina aparecer acompanhada de um som grave, entre imediatamente em um lugar fechado.</b> Feche as portas e afaste-se das janelas. O som não avisa que alguma coisa vai chegar — <em>avisa que já chegou.</em></p></article>
                 <article><strong>02</strong><p><b>Não entre na floresta depois do anoitecer.</b> Todas as trilhas oficiais fecham antes do pôr do sol. Nenhum funcionário da cidade trabalha naquela região à noite.</p></article>
-                <article><strong>03</strong><p><b>Nunca ofereça carona para desconhecidos encontrados na estrada durante a neblina.</b> Se a pessoa aparecer no banco de trás, continue olhando para a estrada. Parar só tornaria a situação constrangedora.</p></article>
+                <article><strong>03</strong><p><b>Nunca ofereça carona para desconhecidos encontrados na estrada durante a neblina.</b> Um boletim de 1998 registra um carro abandonado com marcas de mãos molhadas no banco traseiro.</p></article>
                 <article><strong>04</strong><p><b>Se um morador disser que você chegou tarde demais, apenas agradeça.</b> Perguntar “tarde demais para quê?” demonstra curiosidade, e SunnyValley sempre teve uma relação complicada com turistas curiosos.</p></article>
                 <article><strong>05</strong><p><b>Se alguém bater três vezes, não abra a porta.</b> Funcionários das pousadas chamam os hóspedes pelo nome correto. Caso a voz use um apelido de infância, tenha certeza de que não é um funcionário.</p></article>
                 <article><strong>06</strong><p><b>Não siga vozes, cantigas ou choros vindos da floresta.</b> Mesmo que pareçam pertencer a alguém conhecido. As árvores de SunnyValley são excelentes imitadoras e não oferecem reembolso pelo passeio.</p></article>
@@ -698,13 +685,13 @@ export default function Home() {
           <div className="section vip-inner">
             <div className="section-heading vip-heading"><div><span className="section-label light">{darkMode ? "O vale cobra de outras formas" : "Apoie o projeto"}</span><h2>{darkMode ? "Escolha o que deseja deixar para trás." : "Passaportes VIP"}</h2></div><p>{darkMode ? "Alguns benefícios duram trinta dias. Outras escolhas permanecem por muito mais tempo." : "Benefícios para construir uma vida confortável no vale. Nenhum plano concede imunidade às regras, prioridade em denúncia ou controle da lore."}</p></div>
             <div className="vip-grid">{vipPlans.map((plan) => <article className={`vip-card ${plan.featured ? "featured" : ""}`} key={plan.name}>{plan.featured && <span className="recommended">Mais escolhido</span>}<div className="vip-top"><span>{plan.mark}</span><h3>{plan.name}</h3><div className="vip-price-row"><strong>{plan.price}</strong><small>{plan.period}</small></div><div className="vip-inheritance"><span>Herança inicial</span><b>{plan.inheritance}</b></div></div><ul>{plan.benefits.map((benefit) => <li key={benefit}>{benefit}</li>)}</ul><a href={SUPPORT_CHANNEL} target="_blank" rel="noreferrer" onClick={() => void copyTicketMessage(`o VIP ${plan.name}`)}>Solicitar no Discord</a></article>)}</div>
-            <p className="vip-disclaimer">Os benefícios são válidos pelo período indicado em cada plano e dependem da disponibilidade da cidade. Doações são voluntárias e seguem o regulamento oficial.</p>
+            <p className="vip-disclaimer">Todos os itens são entregues pela administração conforme o catálogo, a disponibilidade e os sistemas ativos da cidade. Nenhum benefício altera regras, investigações, resultados de RP ou decisões da equipe de lore.</p>
           </div>
         </section>
 
         <section className="section final-cta">
           <img src="/assets/emblema-sunnyvalley.webp" alt="Emblema de SunnyValley" />
-          <div><span className="section-label">{darkMode ? "O ônibus já partiu" : "Seu ônibus está quase partindo"}</span><h2>{darkMode ? "SunnyValley já encontrou você." : "SunnyValley espera por você."}</h2><p>{darkMode ? "Não corra para a estrada. Não existe mais caminho de volta no mapa que você trouxe." : "Pegue sua passagem, entre no Discord e aproveite o passeio enquanto ainda há luz."}</p></div>
+          <div><span className="section-label">{darkMode ? "A neblina alcançou a estrada" : "Sua viagem está quase começando"}</span><h2>{darkMode ? "SunnyValley já encontrou você." : "SunnyValley espera por você."}</h2><p>{darkMode ? "Os boletins recomendam evitar a estrada norte depois do último aviso do xerifado." : "Pegue sua passagem, entre no Discord e comece sua história enquanto ainda há luz."}</p></div>
           <a className="button primary" href={TICKET_DISCORD} target="_blank" rel="noreferrer">{darkMode ? "Aceitar o convite" : "Compre sua passagem"}</a>
         </section>
       </div>

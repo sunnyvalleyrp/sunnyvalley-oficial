@@ -39,6 +39,13 @@ img { max-width: 100%; display: block; }
 .nav-links a { position: relative; padding: 1.8rem 0; }
 .nav-links a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 1.2rem; height: 2px; background: var(--rust); transition: right .25s ease; }
 .nav-links a:hover::after, .nav-links a:focus-visible::after { right: 0; }
+.mobile-nav { display: none; position: relative; }
+.mobile-nav summary { list-style: none; cursor: pointer; color: var(--forest); font-size: .72rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.mobile-nav summary::-webkit-details-marker { display: none; }
+.mobile-nav summary::before { content: "☰"; margin-right: .45rem; color: var(--rust); font-size: 1rem; }
+.mobile-nav[open] > div { position: absolute; top: 2.2rem; right: 0; width: min(260px, 82vw); display: grid; padding: .7rem; background: rgba(248,244,233,.98); border: 1px solid var(--line); box-shadow: 0 18px 40px rgba(20,34,29,.2); }
+.mobile-nav div a { padding: .8rem; border-bottom: 1px solid var(--line); color: var(--forest); font-size: .72rem; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; }
+.mobile-nav div a:last-child { border-bottom: 0; }
 .nav-ticket { padding: .75rem 1rem; background: var(--rust); color: white; font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; white-space: nowrap; }
 .theme-toggle { display: inline-flex; align-items: center; gap: .52rem; min-height: 42px; padding: .5rem .78rem; border: 1px solid #244f43; border-radius: 999px; background: #112f28; color: #fff8e8; cursor: pointer; box-shadow: 0 7px 18px rgba(8,30,25,.2); transition: color .3s ease, border-color .3s ease, background .3s ease, transform .3s ease, box-shadow .3s ease; }
 .theme-toggle:hover, .theme-toggle:focus-visible { transform: translateY(-2px); border-color: #d27a59; background: #0a211c; box-shadow: 0 9px 26px rgba(8,30,25,.34), 0 0 0 3px rgba(168,72,45,.15); }
@@ -108,10 +115,10 @@ h2 { margin: 0 0 1.4rem; font-family: Georgia, "Times New Roman", serif; font-si
 .card-icon { display: grid; place-items: center; width: 54px; height: 54px; margin-bottom: 2.3rem; border: 1px solid var(--rust); border-radius: 50%; color: var(--rust); font-family: Georgia, serif; font-size: 1.5rem; }
 .attraction-card h3 { margin: 0 0 .8rem; color: var(--forest); font-family: Georgia, serif; font-size: 1.5rem; }
 .attraction-card p { margin: 0; color: #626c67; line-height: 1.65; }
-.tourism-categories .attraction-card { width: 100%; color: inherit; text-align: left; cursor: pointer; appearance: none; transition: transform .25s ease, border-color .25s ease, background .25s ease, box-shadow .25s ease; }
+.tourism-categories .attraction-card { width: 100%; display: flex; flex-direction: column; color: inherit; text-align: left; cursor: pointer; appearance: none; transition: transform .25s ease, border-color .25s ease, background .25s ease, box-shadow .25s ease; }
 .tourism-categories .attraction-card:hover, .tourism-categories .attraction-card:focus-visible { z-index: 2; transform: translateY(-4px); border-color: var(--rust); box-shadow: 0 16px 34px rgba(39,43,37,.12); }
 .tourism-categories .attraction-card.active { background: #fffaf0; border-color: var(--rust); box-shadow: inset 0 -4px var(--rust), 0 16px 34px rgba(39,43,37,.1); }
-.tourism-categories .attraction-card b { display: block; margin-top: 1.1rem; color: var(--rust); font-size: .7rem; letter-spacing: .09em; text-transform: uppercase; }
+.tourism-categories .attraction-card b { display: block; margin-top: auto; padding-top: 1.1rem; color: var(--rust); font-size: .7rem; letter-spacing: .09em; text-transform: uppercase; }
 .tourism-photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 3rem; }
 .tourism-photo-grid figure { position: relative; min-height: 360px; margin: 0; overflow: hidden; background: var(--forest); }
 .tourism-photo-grid img { width: 100%; height: 100%; min-height: 360px; object-fit: cover; transition: transform .8s ease, filter .65s ease; }
@@ -728,6 +735,9 @@ footer p { margin: .3rem 0 0; color: #8da49b; }
 .site-shell.dark-mode .final-cta > img { filter: grayscale(.2) brightness(.84) contrast(1.14); box-shadow: 0 18px 48px rgba(0,0,0,.48); }
 .site-shell.dark-mode footer { background: #030707; }
 .site-shell.dark-mode .music-control { background: rgba(4,9,9,.94); border-color: rgba(199,216,207,.18); }
+.site-shell.dark-mode .mobile-nav summary { color: #e8dfcf; }
+.site-shell.dark-mode .mobile-nav[open] > div { background: rgba(8,16,16,.98); border-color: rgba(219,224,207,.16); }
+.site-shell.dark-mode .mobile-nav div a { color: #e8dfcf; border-color: rgba(219,224,207,.12); }
 
 @keyframes symbol-pulse {
   0%, 100% { opacity: .18; filter: blur(.2px); }
@@ -781,6 +791,7 @@ footer p { margin: .3rem 0 0; color: #8da49b; }
   .night-whisper { opacity: .16; }
   .whisper-three, .glyph-two { display: none; }
   .nav-links { display: none; }
+  .mobile-nav { display: block; }
   .hero-content { grid-template-columns: 1fr; padding-top: 5rem; }
   .hero-copy { max-width: 760px; }
   .postcard-wrap { width: min(800px, 95%); margin: 0 auto; }
@@ -837,7 +848,7 @@ footer p { margin: .3rem 0 0; color: #8da49b; }
   .landscape-band { min-height: 440px; padding: 2rem 6vw; }
   .attraction-grid, .rules-grid, .vip-grid { grid-template-columns: 1fr; }
   .tourism-photo-grid { grid-template-columns: 1fr; }
-  .place-gallery, .property-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .place-gallery, .property-grid { grid-template-columns: 1fr; }
   .tourism-window { width: 94vw; padding: 3.7rem 1rem 1.25rem; }
   .tourism-window-header { grid-template-columns: 1fr; gap: 1rem; padding-right: 0; }
   .tourism-window-header > span { grid-column: 1; }
