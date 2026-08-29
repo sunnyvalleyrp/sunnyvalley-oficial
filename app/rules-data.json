@@ -1,0 +1,1178 @@
+[
+  {
+    "group": "1. Identidade do servidor e termo de ciência",
+    "subgroup": "",
+    "title": "Orientação 1",
+    "text": "SunnyValley é uma experiência de roleplay focada em convivência, trabalho, turismo, mistério e terror psicológico. O objetivo não é reproduzir uma cidade de crime tradicional, e sim construir histórias lentas, relações entre personagens e eventos de horror conduzidos pela lore."
+  },
+  {
+    "group": "1. Identidade do servidor e termo de ciência",
+    "subgroup": "",
+    "title": "Finalidade narrativa",
+    "text": "O servidor prioriza interpretação, continuidade e construção de personagem. Competição, vantagem mecânica e vontade de “ganhar” uma cena nunca ficam acima da história coletiva."
+  },
+  {
+    "group": "1. Identidade do servidor e termo de ciência",
+    "subgroup": "",
+    "title": "Leitura obrigatória",
+    "text": "Entrar no servidor confirma ciência das regras publicadas. Atualizações serão anunciadas nos canais oficiais e passam a valer na data informada."
+  },
+  {
+    "group": "1. Identidade do servidor e termo de ciência",
+    "subgroup": "",
+    "title": "Bom senso",
+    "text": "Nenhum manual prevê todas as situações. Quando não houver regra específica, preserve a imersão, a segurança e a experiência dos demais."
+  },
+  {
+    "group": "1. Identidade do servidor e termo de ciência",
+    "subgroup": "",
+    "title": "Responsabilidade individual",
+    "text": "Uma infração cometida por outra pessoa não autoriza você a responder com outra infração. Continue o RP quando for seguro, guarde provas e procure o suporte depois."
+  },
+  {
+    "group": "1. Identidade do servidor e termo de ciência",
+    "subgroup": "",
+    "title": "Conteúdo permitido",
+    "text": "A atmosfera pode ser inquietante e sombria, mas conteúdos sexuais forçados, preconceituosos, degradantes ou de violência gráfica extrema não fazem parte da proposta."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Respeito e civilidade",
+    "text": "Trate membros, visitantes e equipe com educação. Insultos, provocações insistentes, ameaças, humilhações e ataques pessoais são proibidos."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Preconceito e discurso de ódio",
+    "text": "Racismo, LGBTfobia, misoginia, xenofobia, capacitismo, intolerância religiosa e qualquer conteúdo discriminatório resultam em medidas severas, inclusive banimento permanente."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Assédio e exposição",
+    "text": "É proibido assediar, perseguir, sexualizar sem consentimento, divulgar dados pessoais, incentivar ataques ou expor conversas privadas com intenção de constranger."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Canais corretos",
+    "text": "Use cada canal para sua finalidade. Evite spam, flood, mensagens repetidas, marcações desnecessárias, correntes e desvio constante de assunto."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Conteúdo impróprio",
+    "text": "Não publique pornografia, gore real, violência real explícita, conteúdo ilegal, golpes, arquivos suspeitos ou material que viole as regras do Discord."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Divulgação",
+    "text": "Servidores, lojas, redes sociais, rifas, links comerciais e convites só podem ser divulgados nos espaços autorizados pela administração."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Perfis",
+    "text": "Nomes, avatares, biografias e status não podem imitar a equipe nem conter ofensas, símbolos de ódio ou conteúdo inadequado."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Discussões e política",
+    "text": "Debates são permitidos apenas quando respeitosos e no canal adequado. Assuntos que estejam causando hostilidade poderão ser encerrados pela moderação."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Tickets e suporte",
+    "text": "Não cobre atendimento em mensagens privadas nem marque diversos membros da equipe. Abra um ticket, descreva o caso e aguarde a ordem de atendimento."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Informação de RP",
+    "text": "Conhecimento obtido no Discord, em live, em clipe ou em conversa OOC não pode ser levado ao personagem, salvo quando o canal estiver claramente identificado como parte do RP."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Contas e evasão",
+    "text": "Contas alternativas usadas para fugir de punição, assediar ou manipular votações e denúncias serão removidas junto com a conta principal."
+  },
+  {
+    "group": "2. Regras do Discord",
+    "subgroup": "",
+    "title": "Decisões da moderação",
+    "text": "Discordar é permitido; atacar a equipe ou transformar o canal público em tribunal não é. Recursos devem ser feitos pelo procedimento oficial."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Conta pessoal",
+    "text": "Cada pessoa é responsável pela própria conta. Não compartilhe acesso, identificadores, benefícios ou personagem sem autorização expressa."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Microfone funcional",
+    "text": "A comunicação em voz deve ser compreensível. Ruído excessivo, microfone aberto, gritos OOC e sons externos que prejudiquem cenas devem ser corrigidos."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Soundpad e música",
+    "text": "Efeitos sonoros só podem ser usados com moderação e finalidade narrativa. Não reproduza conteúdo protegido ou música alta que prejudique transmissões e a experiência dos demais."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Modificador de voz",
+    "text": "É opcional e deve continuar inteligível. Não use para imitar outro jogador, membro da equipe ou entidade oficial da lore."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Programas proibidos",
+    "text": "Hack, macro abusiva, exploit, mira assistida externa, remoção de noite/neblina/objetos, visão privilegiada e qualquer alteração que gere vantagem são proibidos."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Bugs",
+    "text": "Encontrou uma falha? Pare de explorá-la, registre o necessário e informe a equipe. Usar bug para obter dinheiro, acesso, informação ou vantagem agrava a punição."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Crash e desconexão",
+    "text": "Se cair durante uma cena, avise no canal indicado e retorne assim que possível. Desconectar para escapar de consequência caracteriza combat logging."
+  },
+  {
+    "group": "3. Acesso, voz, recursos técnicos e segurança",
+    "subgroup": "",
+    "title": "Segurança digital",
+    "text": "A equipe não solicitará senha, código de autenticação ou acesso remoto ao computador. Denuncie perfis suspeitos pelos canais oficiais."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Permaneça em personagem",
+    "text": "Problemas OOC devem ser resolvidos depois da cena. Quebras urgentes de segurança podem usar a palavra de pausa definida pela equipe."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Valorize a vida",
+    "text": "Reaja ao perigo como uma pessoa real reagiria. Não provoque ameaças sobrenaturais, acidentes ou autoridades apenas para gerar uma cena."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Consequências importam",
+    "text": "Ferimentos, medo, cansaço, perdas e relações devem produzir efeitos coerentes. Não volte imediatamente ao normal depois de acontecimentos graves."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Interpretação justa",
+    "text": "Descreva tentativas, não resultados impostos. Dê espaço para que a outra pessoa perceba, responda e participe."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Sem protagonismo forçado",
+    "text": "Seu personagem pode ser importante para a própria história, mas não controla a cidade, a lore central ou as decisões de outros personagens."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Continuidade",
+    "text": "Mantenha personalidade, profissão, vínculos e conhecimentos de forma coerente. Mudanças grandes precisam de desenvolvimento ou autorização quando afetarem a lore."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Informações dentro do RP",
+    "text": "Use apenas o que o personagem descobriu de maneira válida. Acesso de jogador a documentos, transmissões ou bastidores não equivale a conhecimento do personagem."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Consentimento de conteúdo",
+    "text": "Cenas de crise emocional, fobias específicas ou terror intenso devem respeitar os limites informados. Qualquer participante pode pedir redução de intensidade sem ser ridicularizado."
+  },
+  {
+    "group": "4. Regras gerais de roleplay",
+    "subgroup": "",
+    "title": "Crianças e personagens vulneráveis",
+    "text": "Não use personagens menores ou vulneráveis para contornar regras, provocar choque gratuito ou criar conteúdo impróprio."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Metagaming",
+    "text": "Usar no jogo informações obtidas fora do RP: live, chat, Discord, mapa de colega, clipe ou conversa privada."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Powergaming",
+    "text": "Executar ações impossíveis ou impor um resultado sem chance de reação, como ignorar limites físicos ou declarar que alguém desmaiou sem interação."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Fail RP",
+    "text": "Agir de modo incompatível com a situação e com o universo, quebrando deliberadamente a credibilidade da cena."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Forçar RP",
+    "text": "Prender outra pessoa em interação indesejada, insistir após recusa, invadir cenas sem motivo ou determinar sentimentos e ações alheias."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "RDM",
+    "text": "Atacar ou matar sem construção narrativa. Como o servidor não possui crime e PVP livre, qualquer agressão intencional entre jogadores é presumidamente irregular, salvo evento oficialmente autorizado."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "VDM e car parking",
+    "text": "Usar veículo como arma, atropelar, prensar ou impedir alguém de se levantar."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Combat logging",
+    "text": "Desconectar, trocar de personagem ou usar falha proposital para evitar uma cena ou consequência."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Revenge RP",
+    "text": "Buscar vingança com lembranças que o personagem não deveria possuir ou retornar imediatamente à mesma situação para retaliar."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Stream sniping",
+    "text": "Acompanhar transmissão para localizar, evitar ou surpreender um jogador."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Flaming e baiting",
+    "text": "Provocar deliberadamente conflitos OOC, insultos ou reações para depois usar a situação contra outra pessoa."
+  },
+  {
+    "group": "5. Condutas anti-RP e glossário",
+    "subgroup": "",
+    "title": "Dark RP proibido",
+    "text": "Assédio sexual, violência sexual, tortura gráfica, pedofilia, racismo encenado, homofobia encenada e crimes de ódio não são recursos narrativos aceitos."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Nome e conceito",
+    "text": "Use nome plausível e conceito compatível com SunnyValley. Personagens feitos apenas para trollar, copiar celebridades ou quebrar a ambientação serão recusados."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "História própria",
+    "text": "O personagem pode ter mistérios, mas não pode começar conhecendo a verdade da cidade, sendo parente secreto de toda a administração ou possuindo poderes sobrenaturais."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Personagens adicionais",
+    "text": "Não podem transferir dinheiro, itens, veículos, informações, imóveis ou benefícios entre si, nem trabalhar juntos para favorecer a mesma pessoa."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Conhecimento separado",
+    "text": "Cada personagem possui memória própria. Informações descobertas por um não passam automaticamente aos demais."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Mudança de profissão",
+    "text": "Saídas de cargos sensíveis podem exigir período de afastamento e esquecimento das informações internas definidas pela administração."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Desmaio e incapacidade",
+    "text": "Interprete ferimentos e siga as orientações médicas. Não use o estado de incapacitado para transmitir informação ou acompanhar a cena por canais externos."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Perda de memória",
+    "text": "Quando o sistema ou a equipe determinar esquecimento, não use detalhes da cena para perseguir participantes ou reconstruir o ocorrido por atalhos OOC."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Morte permanente — PD",
+    "text": "O encerramento definitivo do personagem exige consentimento do proprietário, decisão administrativa em caso excepcional ou procedimento específico da lore. Outros jogadores não podem impor PD."
+  },
+  {
+    "group": "6. Personagens, memória e morte permanente",
+    "subgroup": "",
+    "title": "Novo personagem",
+    "text": "Após PD, não recrie a mesma pessoa com outro nome nem continue vinganças, vínculos e conhecimentos encerrados."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Assalto a jogadores",
+    "text": "É proibido render, ameaçar, revistar ou exigir dinheiro, itens, veículo, senha, serviço ou informação de outro jogador."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Assalto a estabelecimentos",
+    "text": "É proibido roubar ou simular roubo a lojas, restaurantes, pousadas, postos, caixas, barcos, eventos e negócios de jogadores."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Assalto a banco",
+    "text": "Não existe RP de banco, carro-forte, caixa eletrônico, cofre, invasão, refém ou negociação policial."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Furto e apropriação",
+    "text": "Não pegue veículo, objeto, mercadoria ou propriedade alheia sem autorização, ainda que o sistema permita."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Sequestro e cárcere",
+    "text": "É proibido levar, prender, amarrar ou manter outro personagem contra a vontade. Eventos de lore usam mecanismos próprios e equipe identificada."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Armas e violência",
+    "text": "Portar, vender, fabricar ou utilizar armas ilegais não integra o servidor. Brigas, execuções, cobranças e ataques entre jogadores são proibidos."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Drogas e contrabando",
+    "text": "Não existe cultivo, produção, venda, entrega, lavagem de dinheiro ou comércio de itens ilegais."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Facções e gangues",
+    "text": "Grupos podem ser famílias, associações, clubes e equipes de trabalho; não podem funcionar como facção criminosa, milícia, máfia ou culto violento."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Corrupção",
+    "text": "Funcionários públicos, médicos, xerifes e proprietários não podem criar esquemas ilegais, vender acesso, ocultar provas por pagamento ou abusar do cargo."
+  },
+  {
+    "group": "7. Regras de assalto e proibição total de crimes",
+    "subgroup": "",
+    "title": "Exceção de lore",
+    "text": "Somente eventos previamente autorizados podem representar ameaças, desaparecimentos ou violência fictícia. A autorização pertence à equipe e não cria permissão geral para crime entre jogadores."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "SunnyValley não possui áreas imunes à lore",
+    "text": "A neblina, os sinais e eventos oficiais podem alcançar ruas, pousadas, florestas, restaurantes e águas. Isso não significa que jogadores possam atacar, perseguir ou atrapalhar outros livremente."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "Proteção OOC em toda a cidade",
+    "text": "Assédio, abuso, RP forçado, griefing, RDM, VDM, bloqueio e perseguição maliciosa são proibidos em qualquer local."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "Entrada e carregamento",
+    "text": "Não aborde ou cerque alguém que acabou de conectar, está carregando personagem, ajustando aparência ou enfrentando falha técnica."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "AFK e menus",
+    "text": "Não use a ausência ou menu aberto de outra pessoa para criar prejuízo, mover personagem, tomar item ou iniciar cena."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "Camp de locais",
+    "text": "É proibido permanecer em spawn, pousadas, hospital, garagem, emprego ou saída de evento apenas para interceptar e incomodar jogadores."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "Acesso a espaços",
+    "text": "Quartos, áreas restritas, bastidores e propriedades devem ser respeitados conforme o RP e as permissões do sistema."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "Saída de cena",
+    "text": "Quando alguém sinalizar limite OOC válido, reduza a intensidade e procure a equipe. Não use a lore como desculpa para manter a pessoa presa à interação."
+  },
+  {
+    "group": "8. Ausência de safe zone e proteção contra abuso",
+    "subgroup": "",
+    "title": "Evento oficial",
+    "text": "Somente a equipe de lore pode atravessar proteções narrativas anunciadas. Participantes comuns não podem se declarar entidade, invasor ou ameaça para ignorar limites."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.1 A cidade",
+    "title": "Orientação 1",
+    "text": "Fundada oficialmente em 1898, SunnyValley ocupa uma península ao norte, cercada por montanhas, pinheiros e águas calmas. Durante o dia, a cidade vive de pesca, pousadas, restaurantes, acampamentos e passeios. Ao anoitecer, a neblina se aproxima, o sino antigo volta a ser ouvido e caminhos conhecidos deixam de se comportar como deveriam."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.2 Lore dos moradores",
+    "title": "Famílias antigas",
+    "text": "Moradores podem pertencer a famílias locais e conhecer costumes, histórias incompletas e lugares da cidade, mas ninguém começa sabendo toda a verdade."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.2 Lore dos moradores",
+    "title": "Silêncio coletivo",
+    "text": "Os moradores evitam explicar diretamente o sino, a Primeira Capela, as manchas após a chuva e o que acontece na neblina. Insinuações são bem-vindas; exposição total da lore não."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.2 Lore dos moradores",
+    "title": "Hospitalidade inquietante",
+    "text": "A cordialidade local deve parecer real, ainda que um pouco perfeita demais. Morador não é automaticamente vilão, cúmplice, membro de culto ou criatura."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.2 Lore dos moradores",
+    "title": "Sem imunidade",
+    "text": "Ter nascido em SunnyValley não protege contra eventos. Moradores também sentem medo, erram, esquecem e descobrem partes da história."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.2 Lore dos moradores",
+    "title": "Segredos com autorização",
+    "text": "Ligações diretas com a origem da cidade, a capela, entidades ou arquivos restritos precisam ser aprovadas pela equipe de lore."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.3 Lore dos turistas",
+    "title": "Chegada",
+    "text": "Turistas podem chegar de ônibus, balsa, barco ou estrada, normalmente atraídos por cartão-postal, férias, emprego temporário ou recomendação."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.3 Lore dos turistas",
+    "title": "Conhecimento inicial",
+    "text": "Começam conhecendo a imagem turística da cidade, não seus segredos. Vídeos, documentos e conversas OOC não antecipam descobertas."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.3 Lore dos turistas",
+    "title": "Curiosidade com consequência",
+    "text": "Investigar é permitido quando há motivação e cautela. Invadir todo local, desafiar sinais ou exigir respostas prejudica a atmosfera e o princípio de valor à vida."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.3 Lore dos turistas",
+    "title": "Escolha de permanência",
+    "text": "O turista pode se tornar residente por desenvolvimento de RP; isso não fornece memória retroativa nem acesso automático à lore antiga."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Controle da lore",
+    "text": "Entidades, sinais sobrenaturais, transmissões especiais, desaparecimentos e revelações centrais são conduzidos pela equipe autorizada."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Sem poderes inventados",
+    "text": "Jogadores não podem ver fantasmas sob comando, prever eventos, realizar rituais eficazes, controlar neblina ou interpretar entidade oficial sem aprovação."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Reação proporcional",
+    "text": "Interprete medo e incerteza, sem transformar toda aparição em piada, combate ou oportunidade de selfie."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Sem farm de aparição",
+    "text": "Não acampe em locais de evento, repita rotas ou pressione a equipe até que algo sobrenatural apareça."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Sem spoiler e meta",
+    "text": "Não publique pistas, soluções, identidades ou bastidores fora dos canais autorizados. Descobertas devem circular dentro do RP."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Consentimento e pausa",
+    "text": "A equipe pode ajustar cenas intensas. Jogadores também podem informar limites; isso não será usado como motivo de ridicularização ou retaliação."
+  },
+  {
+    "group": "9. Estrutura da lore de SunnyValley",
+    "subgroup": "9.4 Regras OOC para eventos de terror",
+    "title": "Registros de lore",
+    "text": "Fotos, áudios e vídeos podem existir dentro do RP quando capturados pelo personagem. Materiais fornecidos pela equipe seguem as condições do evento."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Se um morador disser que você chegou tarde demais, apenas agradeça",
+    "text": "Perguntar “tarde demais para quê?” demonstra curiosidade, e SunnyValley sempre teve uma relação complicada com turistas curiosos."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Se alguém bater três vezes, não abra a porta",
+    "text": "Funcionários das pousadas chamam hóspedes pelo nome correto. Caso a voz use um apelido de infância, tenha certeza de que não é um funcionário."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Não siga vozes, cantigas ou choros vindos da floresta",
+    "text": "Mesmo que pareçam pertencer a alguém conhecido. As árvores locais são excelentes imitadoras e, infelizmente, não oferecem reembolso."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Antes de dormir no acampamento, conte o grupo",
+    "text": "Se houver alguém a mais, mantenha a calma e não demonstre que percebeu. Não ofereça comida e evite dizer seu nome."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Se a neblina trouxer um som grave, entre em um local fechado",
+    "text": "Não permaneça sozinho e não saia assim que o som parar. SunnyValley recomenda esperar alguns minutos — por puro cuidado turístico, naturalmente."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Não entre na floresta à noite",
+    "text": "As trilhas não mudam de lugar durante o dia. À noite, a administração prefere não responder pela criatividade delas."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Não aceite nem ofereça carona na neblina",
+    "text": "Se o passageiro não aparecer no retrovisor, continue olhando para a estrada e não faça comentários sobre isso."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Observe as placas",
+    "text": "Uma placa com nome, data ou caminho que você não reconhece deve ser ignorada. Retorne pelo mesmo trajeto; se ela aparecer outra vez, pare e aguarde."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Não atenda telefone sem identificação após o pôr do sol",
+    "text": "Se a chamada vier do seu próprio número, desligue sem confirmar quem está falando."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Não acene para barcos sem iluminação",
+    "text": "Os pescadores locais garantem que nenhum deles navega depois do sino. Eles preferem que você acredite nisso."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Se uma televisão desligada começar a transmitir a cidade, não mude de canal",
+    "text": "Afaste-se devagar. A programação termina sozinha quando percebe que perdeu a audiência."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "Se encontrar seu carro ligado onde não o deixou, procure ajuda",
+    "text": "Não abra o porta-malas. A prefeitura não cobre limpeza extraordinária em veículos de turistas."
+  },
+  {
+    "group": "10. Recomendações locais dentro da lore",
+    "subgroup": "",
+    "title": "SunnyValley agradece a colaboração",
+    "text": "Aproveite as trilhas, prove a gastronomia local e retorne à pousada antes do primeiro sino. O segundo costuma ser menos cordial."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.1 Empregos e economia",
+    "title": "Trabalho ativo",
+    "text": "Empregos existem para gerar interação. Permanecer em serviço sem trabalhar, automatizar tarefa ou acumular salário AFK é proibido."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.1 Empregos e economia",
+    "title": "Conduta profissional",
+    "text": "Funcionários devem respeitar clientes, preços, hierarquia e proposta do estabelecimento. Cargo não concede autoridade fora de suas funções."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.1 Empregos e economia",
+    "title": "Economia justa",
+    "text": "É proibido duplicar itens, combinar transferências artificiais, manipular preços, explorar sistemas ou distribuir patrimônio para favorecer amigos."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.1 Empregos e economia",
+    "title": "Comércio externo",
+    "text": "Venda, compra ou troca de conta, personagem, veículo, moeda, item ou benefício por dinheiro real é proibida."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.1 Empregos e economia",
+    "title": "Bens de serviço",
+    "text": "Veículos, uniformes, rádios, chaves e recursos de emprego são exclusivos do trabalho e não podem ser usados para vantagem pessoal."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.2 Restaurantes",
+    "title": "Atendimento",
+    "text": "Respeite filas, horários e cenas em andamento. Não invada cozinha, estoque, escritório ou áreas de funcionários sem autorização."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.2 Restaurantes",
+    "title": "Restaurantes locais",
+    "text": "O restaurante pode desenvolver histórias próprias, pratos sazonais e rumores locais, mas não pode esconder crime, canibalismo real entre jogadores ou comércio ilegal."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.2 Restaurantes",
+    "title": "Conflitos",
+    "text": "Reclamações de atendimento devem permanecer proporcionais. Não destrua ambiente, ameace funcionário ou force reembolso pelo sistema."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.2 Restaurantes",
+    "title": "Lore de ingredientes",
+    "text": "Piadas e mistérios são permitidos; conteúdo gráfico, intoxicação imposta e prejuízo sem consentimento não."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.3 Pousadas",
+    "title": "Privacidade",
+    "text": "Quartos e áreas restritas devem ser respeitados. Não entre, espione, tranque ou mova hóspedes sem permissão de RP."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.3 Pousadas",
+    "title": "Funcionários",
+    "text": "Não podem usar chaves, cadastro ou posição para perseguir, constranger ou favorecer jogadores."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.3 Pousadas",
+    "title": "Eventos noturnos",
+    "text": "Batidas, passos e chamados ligados à lore são coordenados pela equipe; hóspedes comuns não devem imitar sinais oficiais para assustar pessoas."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.3 Pousadas",
+    "title": "Permanência",
+    "text": "Reservas, pagamentos e horários devem seguir o sistema. Discussões técnicas vão para o suporte, não para recepção em personagem."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.4 Guia de turismo",
+    "title": "Trilhas e acampamentos",
+    "text": "Permaneça nas rotas, cuide da fogueira e interprete preparação adequada. Não use trilha para atropelar, bloquear ou provocar evento sobrenatural."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.4 Guia de turismo",
+    "title": "Águas e lanchas",
+    "text": "Use embarcações de forma responsável, respeite passageiros e não colida de propósito. Ameaças na água pertencem a eventos autorizados."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.4 Guia de turismo",
+    "title": "Pesca",
+    "text": "Respeite pontos, limites e economia. Não use pesca como cobertura para exploração de bug ou comércio ilegal."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.4 Guia de turismo",
+    "title": "Paraquedismo",
+    "text": "Saltos devem seguir instruções do serviço e condições do evento. Não force passageiro, sabote equipamento ou salte em locais proibidos."
+  },
+  {
+    "group": "11. Empregos, economia, estabelecimentos e turismo",
+    "subgroup": "11.4 Guia de turismo",
+    "title": "Guias",
+    "text": "Devem priorizar segurança, ritmo e participação do grupo. Conhecem rotas turísticas, não toda a verdade da cidade."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.1 Veículos e trânsito",
+    "title": "Direção coerente",
+    "text": "Respeite terreno, clima e limites do veículo. Carros comuns não escalam montanhas nem continuam normalmente após colisões graves."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.1 Veículos e trânsito",
+    "title": "Acidentes",
+    "text": "Interprete impacto, pare em local seguro e acione o serviço adequado. Fugir apenas para evitar consequência narrativa caracteriza fail RP."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.1 Veículos e trânsito",
+    "title": "Colisões intencionais",
+    "text": "Bater, fechar, empurrar ou atropelar para prejudicar outro jogador é proibido."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.1 Veículos e trânsito",
+    "title": "Veículos de serviço",
+    "text": "Não podem ser usados em passeio pessoal, competição ou transporte não autorizado durante o expediente."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.1 Veículos e trânsito",
+    "title": "Estacionamento",
+    "text": "Não bloqueie hospital, pousada, garagem, píer, trilha, comércio ou rota de evento."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.2 Hospital e atendimento médico",
+    "title": "Respeito ao atendimento",
+    "text": "Aguarde sua vez, siga instruções médicas e não interrompa cenas de outros pacientes."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.2 Hospital e atendimento médico",
+    "title": "Áreas restritas",
+    "text": "Necrotério, cirurgia, estoque e espaços técnicos exigem autorização."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.2 Hospital e atendimento médico",
+    "title": "Chamados verdadeiros",
+    "text": "Não faça chamada falsa, simule emergência para trollar ou use hospital como ponto de encontro OOC."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.2 Hospital e atendimento médico",
+    "title": "Médicos em serviço",
+    "text": "Devem atender sem discriminação, preservar sigilo de RP e não abandonar paciente por conflito pessoal OOC."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.2 Hospital e atendimento médico",
+    "title": "Lore médica",
+    "text": "Exames sobrenaturais, pesquisas secretas e procedimentos extremos só existem com aprovação da equipe de lore."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.2 Hospital e atendimento médico",
+    "title": "Portas e ambulâncias",
+    "text": "Não bloqueie entradas nem use veículos médicos sem função e autorização."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.3 Xerife e ordem pública",
+    "title": "Orientação 12",
+    "text": "Como não existe sistema criminal de jogadores, o xerife atua em trânsito, segurança, pessoas desaparecidas, acidentes, eventos, proteção comunitária e investigação de ocorrências da lore."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.3 Xerife e ordem pública",
+    "title": "Sem corrupção",
+    "text": "Xerifes não podem cobrar favores, vender informação, criar esquema ilegal ou abusar do cargo."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.3 Xerife e ordem pública",
+    "title": "Uso proporcional da autoridade",
+    "text": "Abordagens precisam de motivo, comunicação clara e respeito. Não existem revistas, prisões ou perseguições inventadas para criar ação."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.3 Xerife e ordem pública",
+    "title": "Equipamento público",
+    "text": "Viaturas, rádios, registros e uniformes são exclusivos do serviço e não podem ser cedidos."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.3 Xerife e ordem pública",
+    "title": "Lore e investigação",
+    "text": "Pistas centrais são coordenadas pela equipe. Autoridade não concede acesso automático a todas as respostas."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.3 Xerife e ordem pública",
+    "title": "Relatórios",
+    "text": "Ocorrências relevantes devem ser registradas conforme o procedimento interno, sem expor dados OOC."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.4 Chamados e serviços",
+    "title": "Informação completa",
+    "text": "Informe local, natureza do problema, quantidade de envolvidos e risco imediato. “Venha rápido” não substitui uma descrição útil."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.4 Chamados e serviços",
+    "title": "Um chamado por situação",
+    "text": "Não repita, não faça spam e não acione vários serviços para furar fila."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.4 Chamados e serviços",
+    "title": "Chamado de staff",
+    "text": "Use apenas para falha técnica, dúvida ou quebra de regra. Não chame a equipe para vencer cena, obter transporte ou revelar lore."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.4 Chamados e serviços",
+    "title": "Emergência da lore",
+    "text": "Siga o sistema definido pelo evento. Nem todo sino, ruído ou aparição deve gerar chamado administrativo."
+  },
+  {
+    "group": "12. Veículos, hospital, xerife e chamados",
+    "subgroup": "12.4 Chamados e serviços",
+    "title": "Conduta no atendimento",
+    "text": "Explique com calma e siga as instruções. Ofensa ou tentativa de pressionar prioridade pode encerrar o chamado e gerar punição."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.1 Transmissões e gravações",
+    "title": "Sessões públicas",
+    "text": "O roleplay pode aparecer em lives, vídeos e clipes de participantes. Conteúdo privado OOC, tickets e conversas reservadas não devem ser publicado sem autorização."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.1 Transmissões e gravações",
+    "title": "Regras da plataforma",
+    "text": "Criadores são responsáveis por música, imagem, linguagem e demais requisitos de sua plataforma."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.1 Transmissões e gravações",
+    "title": "Stream sniping e chat",
+    "text": "Não acompanhe live para localizar alguém nem leve mensagens do chat ao personagem."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.1 Transmissões e gravações",
+    "title": "Interferência",
+    "text": "Não interrompa cenas, toque material protegido ou provoque conteúdo inadequado para prejudicar uma transmissão."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.1 Transmissões e gravações",
+    "title": "Gravação de prova",
+    "text": "Clipes podem ser usados em denúncias e recursos. A equipe poderá armazená-los enquanto forem necessários para moderação e auditoria."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.1 Transmissões e gravações",
+    "title": "Gravação dentro do RP",
+    "text": "Seu personagem só possui uma foto, áudio ou vídeo quando houve captura válida em jogo ou fornecimento oficial."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Prazo",
+    "text": "Envie a denúncia preferencialmente em até 48 horas após o ocorrido. Casos graves de segurança podem ser analisados mesmo depois, conforme disponibilidade de provas."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Canal oficial",
+    "text": "Abra ticket no canal indicado. Não denuncie por mensagem privada, chat geral, live, indireta pública ou mobilização de amigos."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Provas",
+    "text": "Anexe vídeo ou imagens com contexto, data aproximada, horário, identificação dos envolvidos e explicação objetiva. Clipes completos têm mais valor que recortes isolados."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Continue o RP quando for seguro",
+    "text": "Não quebre a cena para discutir regra. Preserve sua segurança, registre e procure a equipe depois."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Relato verdadeiro",
+    "text": "Omitir contexto, editar prova de modo enganoso, combinar versões ou inventar acusação caracteriza denúncia de má-fé."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Confidencialidade",
+    "text": "Não exponha denunciante, acusado, provas privadas ou conversa de ticket. A equipe poderá limitar informações para proteger os envolvidos."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Sem retaliação",
+    "text": "Perseguir, ameaçar, excluir de RP ou difamar alguém por ter aberto denúncia gera punição própria."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Sem debate no ticket",
+    "text": "Responda ao que for perguntado e evite discussão direta com a outra parte. A decisão cabe à equipe responsável."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Logs e testemunhas",
+    "text": "Logs podem complementar a análise, mas não substituem automaticamente contexto. Testemunhos serão avaliados por consistência, não por quantidade de amigos."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Recurso",
+    "text": "É permitido um pedido de revisão pelo canal correto, de forma respeitosa e com nova informação ou indicação concreta de erro."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.2 Regras de denúncia",
+    "title": "Denúncia contra staff",
+    "text": "Deve ir ao canal reservado para administração superior. O membro denunciado não conduzirá sozinho a própria análise."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Apoio voluntário",
+    "text": "Doações ajudam na manutenção do projeto e não compram imunidade, cargo de staff, prioridade em denúncia ou controle da lore."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Benefícios informados",
+    "text": "Qualquer vantagem associada à contribuição deve estar descrita no canal oficial. O servidor não adota pay-to-win."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Regras iguais",
+    "text": "Doador está sujeito às mesmas regras e punições. Banimento não gera direito automático de manter benefícios no servidor."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Uso pessoal",
+    "text": "Benefícios não podem ser revendidos, alugados, convertidos em dinheiro, usados em aposta ou transferidos sem autorização."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Alterações",
+    "text": "Itens cosméticos e benefícios podem ser ajustados por equilíbrio, mudança técnica ou encerramento de recurso, com comunicação quando aplicável."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Pagamentos e reembolsos",
+    "text": "Solicitações serão analisadas conforme a legislação aplicável e as regras do meio de pagamento. Promessas informais de terceiros não vinculam a administração."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Chargeback e fraude",
+    "text": "Contestações fraudulentas, comprovantes falsos e uso de pagamento de terceiros podem suspender conta e benefício durante a apuração."
+  },
+  {
+    "group": "13. Transmissões, gravações, denúncias e doações",
+    "subgroup": "13.3 Doações e benefícios",
+    "title": "Doação de arquivos",
+    "text": "Scripts, roupas, mapas ou artes enviados ao projeto só serão incorporados após acordo claro sobre autorização de uso, crédito e possibilidade de remoção."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.1 Conduta da equipe",
+    "title": "Imparcialidade",
+    "text": "Casos devem ser avaliados pelas provas e pelo contexto, sem favorecer amizade, doação, cargo, audiência ou tempo de servidor."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.1 Conduta da equipe",
+    "title": "Sigilo",
+    "text": "Tickets, dados pessoais, logs e bastidores não podem ser divulgados fora da necessidade de moderação."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.1 Conduta da equipe",
+    "title": "Sem vantagem",
+    "text": "Poderes administrativos, câmera, teleporte, logs e informações internas não podem beneficiar personagem próprio ou conhecido."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.1 Conduta da equipe",
+    "title": "Conflito de interesse",
+    "text": "Membro diretamente envolvido deve encaminhar a análise a outra pessoa sempre que possível."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.1 Conduta da equipe",
+    "title": "Registro",
+    "text": "Punições relevantes devem possuir justificativa e evidência suficiente para auditoria interna."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.1 Conduta da equipe",
+    "title": "Postura",
+    "text": "Equipe também está sujeita às regras de respeito. Cargo não autoriza humilhação, ameaça ou discussão pública com jogadores."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.2 Sistema de punições",
+    "title": "Orientação 7",
+    "text": "A administração considera gravidade, intenção, impacto, histórico, cooperação e reincidência. A tabela orienta a resposta, mas casos excepcionais podem exigir medida diferente e justificada."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.2 Sistema de punições",
+    "title": "Advertências",
+    "text": "Podem expirar conforme política publicada, mas o histórico permanece disponível para identificar reincidência e padrão de abuso."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.2 Sistema de punições",
+    "title": "Suspensão preventiva",
+    "text": "Pode ser aplicada durante investigação de hack, risco à comunidade, fraude ou ameaça, sem representar decisão final."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.2 Sistema de punições",
+    "title": "Punição compartilhada",
+    "text": "Quando várias contas pertencem à mesma pessoa ou são usadas para evasão, a medida pode alcançar todas elas."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.2 Sistema de punições",
+    "title": "Cargos e benefícios",
+    "text": "Funções de confiança, empregos especiais e benefícios podem ser removidos quando houver abuso relacionado."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.2 Sistema de punições",
+    "title": "Recursos",
+    "text": "Revisões não são decididas por votação pública. Abuso do canal de recurso pode gerar restrição de suporte."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 1",
+    "text": "Respeite a pessoa por trás do personagem."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 2",
+    "text": "Permaneça no RP e resolva problemas pelos canais oficiais."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 3",
+    "text": "Não use informação obtida fora do jogo."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 4",
+    "text": "Não force ações, resultados, medo, romance ou conflito."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 5",
+    "text": "Não existe crime: sem assalto, roubo, sequestro, tráfico, facção ou violência livre."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 6",
+    "text": "Não existe safe zone para a lore; existe proteção contra abuso em toda a cidade."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 7",
+    "text": "Moradores não conhecem tudo e turistas não chegam sabendo dos segredos."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 8",
+    "text": "Entidades e revelações centrais pertencem à equipe de lore."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 9",
+    "text": "Grave situações relevantes e denuncie com contexto, sem exposição pública."
+  },
+  {
+    "group": "14. Administração, punições e resumo rápido",
+    "subgroup": "14.3 Regras rápidas para começar",
+    "title": "Regra rápida 10",
+    "text": "Na neblina, procure abrigo. Fora dela, procure uma boa história."
+  },
+  {
+    "group": "Termo final de ciência",
+    "subgroup": "",
+    "title": "Orientação 1",
+    "text": "Ao acessar SunnyValley, o participante confirma que:"
+  },
+  {
+    "group": "Termo final de ciência",
+    "subgroup": "",
+    "title": "Orientação 2",
+    "text": "Leu e compreendeu as regras vigentes e buscará esclarecimento quando tiver dúvida."
+  },
+  {
+    "group": "Termo final de ciência",
+    "subgroup": "",
+    "title": "Orientação 3",
+    "text": "Aceita que a administração aplique medidas proporcionais para proteger a comunidade e a proposta do servidor."
+  },
+  {
+    "group": "Termo final de ciência",
+    "subgroup": "",
+    "title": "Orientação 4",
+    "text": "Entende que a lore de terror não elimina consentimento, respeito, segurança ou limites OOC."
+  },
+  {
+    "group": "Termo final de ciência",
+    "subgroup": "",
+    "title": "Orientação 5",
+    "text": "Reconhece que não existe sistema criminal e que assaltos e demais atividades ilegais são proibidos."
+  },
+  {
+    "group": "Termo final de ciência",
+    "subgroup": "",
+    "title": "Orientação 6",
+    "text": "Compromete-se a separar jogador e personagem, não retaliar denúncias e preservar a experiência coletiva."
+  }
+]
