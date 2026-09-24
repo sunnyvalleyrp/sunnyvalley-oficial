@@ -358,7 +358,7 @@ export default function EditorPage() {
         <label className="editor-upload"><span>Trocar música ambiente</span><input type="file" accept="audio/mpeg,audio/ogg,audio/wav,audio/mp4" onChange={replaceMusic} /></label>
         <button onClick={removeMusic}>Remover música personalizada</button>
         <div className="editor-row"><button onClick={toggleHidden}>Ocultar / mostrar</button><button onClick={createBlock}>Criar bloco</button></div>
-        <label className="editor-field"><span>Comentário para o Codex</span><textarea value={commentValue} onChange={(event) => setCommentValue(event.target.value)} rows={4} placeholder="Ex.: deixar esta foto maior e mais envelhecida" /></label>
+        <label className="editor-field"><span>Comentário para a equipe</span><textarea value={commentValue} onChange={(event) => setCommentValue(event.target.value)} rows={4} placeholder="Ex.: deixar esta foto maior e mais envelhecida" /></label>
         <button onClick={addComment}>Adicionar comentário</button>
         <section className="editor-comments"><strong>Comentários ({draft.comments.length})</strong>{draft.comments.map((comment) => <article key={comment.id}><small>{comment.label}</small><p>{comment.text}</p><button onClick={() => setDraft({ ...draft, comments: draft.comments.filter((item) => item.id !== comment.id) })}>Remover</button></article>)}</section>
         <div className="editor-actions"><button className="save" onClick={save}>Salvar rascunho</button><button onClick={exportDraft}>Exportar alterações</button><button className="danger" onClick={reset}>Limpar tudo</button></div>
@@ -369,3 +369,4 @@ export default function EditorPage() {
     </main>
   );
 }
+

@@ -1443,7 +1443,9 @@ export default function Home() {
         <div><strong>SunnyValley</strong><p>Turismo, comunidade e novas histórias desde 1898.</p></div>
         <div className="footer-links"><a href={OFFICIAL_DISCORD} target="_blank" rel="noreferrer">Discord</a><a href={INSTAGRAM} target="_blank" rel="noreferrer">Instagram</a><a href="#jornal">The Valley</a><a href="#regras">Regras</a><a href="#inicio">Voltar ao topo</a></div>
         <div className="footer-note">SunnyValley • Links oficiais da cidade</div>
+        <small className="footer-ownership">© 2026 SunnyValley RP. Propriedade da comunidade SunnyValley. Todos os direitos reservados.</small>
       </footer>
     </main>
   );
 }
+

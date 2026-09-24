@@ -1185,3 +1185,6 @@ html[data-editor-preview="true"] .personal-editor-link{display:none}
 .vip-section,.light-mode .vip-section,.dark-mode .vip-section{background-color:#c99b61!important;background-image:url('/assets/fundo-vip-sunnyvalley.webp')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
 .rules-section,.light-mode .rules-section,.dark-mode .rules-section{background-color:#b88b57!important;background-image:url('/assets/fundo-regras-sunnyvalley.webp')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
 @media(max-width:760px){.vip-section,.light-mode .vip-section,.dark-mode .vip-section,.rules-section,.light-mode .rules-section,.dark-mode .rules-section{background-attachment:scroll!important;background-position:center top!important}}
+
+.footer-ownership{grid-column:1/-1;display:block;padding-top:.75rem;border-top:1px solid rgba(255,255,255,.12);text-align:center;font-size:.55rem;letter-spacing:.06em;color:var(--sv-muted);opacity:.78}.light-mode .footer-ownership{border-top-color:rgba(43,37,28,.18);color:#4c4235}
+

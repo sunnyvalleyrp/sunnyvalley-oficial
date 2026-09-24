@@ -10,7 +10,6 @@ export const metadata: Metadata = {
     nocache: true,
     googleBot: { index: false, follow: false, noimageindex: true },
   },
-  other: { "codex-preview": "development" },
   icons: { icon: "/assets/emblema-sunnyvalley.webp", shortcut: "/assets/emblema-sunnyvalley.webp" },
 };
 
