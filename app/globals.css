@@ -1180,3 +1180,8 @@ html[data-editor-preview="true"] .personal-editor-link{display:none}
 .dark-mode .newspaper-inner :is(.newspaper-location-line,.newspaper-lead,.newspaper-secondary-feature,.newspaper-editions,.article-edition-bar,.article-paragraph h3,.newspaper-article footer,.leonora-dossier){border-color:#756752!important}
 .dark-mode .newspaper-inner :is(.news-read-more,.newspaper-editions button,.newspaper-back-button){color:#2c2821!important;border-color:#756752!important}
 .dark-mode .newspaper-inner .news-read-more{background:rgba(255,255,255,.28)!important}
+
+/* Fundos ilustrados aprovados para VIP e Regras. */
+.vip-section,.light-mode .vip-section,.dark-mode .vip-section{background-color:#c99b61!important;background-image:url('/assets/fundo-vip-sunnyvalley.webp')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+.rules-section,.light-mode .rules-section,.dark-mode .rules-section{background-color:#b88b57!important;background-image:url('/assets/fundo-regras-sunnyvalley.webp')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+@media(max-width:760px){.vip-section,.light-mode .vip-section,.dark-mode .vip-section,.rules-section,.light-mode .rules-section,.dark-mode .rules-section{background-attachment:scroll!important;background-position:center top!important}}
