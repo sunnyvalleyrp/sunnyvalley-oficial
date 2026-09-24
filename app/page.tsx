@@ -144,7 +144,7 @@ type Property = { category: string; name: string; label: string; location: strin
 const properties: Property[] = [
   { category: "casas", name: "Mansão Blackwood", label: "Casa premium", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-blackwood-exterior.webp", "/assets/mansion-blackwood-interior.webp"], text: "Arquitetura moderna integrada à montanha, interior amplo, deck privativo e acesso direto às águas do vale.", nightText: "Uma fotografia do antigo proprietário mostra uma porta hoje substituída por uma parede." },
   { category: "casas", name: "Mansão Serenity", label: "Mansão costeira", location: "Paleto Bay", rooms: "", images: ["/assets/azurecliff-estate-exterior.webp", "/assets/azurecliff-estate-interior.webp"], text: "Uma residência contemporânea à beira-mar, com fachada panorâmica, piscina, amplos terraços e interiores de pé-direito duplo voltados para a costa de Paleto.", nightText: "Uma fotografia noturna das paredes de vidro parece refletir outra fachada atrás do fotógrafo. A casa estava vazia quando a imagem foi registrada." },
-  { category: "casas", name: "Mansão do Vinhedo", label: "Mansão clássica", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-vinhedo-exterior.webp", "/assets/mansao-vinhedo-interior.webp"], text: "Uma propriedade clássica cercada por vinhedos, com jardins reservados, arquitetura mediterrânea e amplos salões para receber convidados.", nightText: "Vigias relatam uma figura atravessando as fileiras do vinhedo antes do fechamento. Nenhuma invasão foi confirmada." },
+  { category: "casas", name: "Mansion Red", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-red-exterior.webp", "/assets/mansion-red-interior.webp"], text: "Uma residência marcante de arquitetura contemporânea, fachada vermelha, piscina panorâmica e amplas áreas de convivência voltadas para a paisagem. O interior combina linhas elegantes, iluminação suave e grandes janelas para quem procura conforto com personalidade.", nightText: "Em algumas noites, o reflexo vermelho da piscina permanece aceso mesmo depois que toda a casa é desligada." },
   { category: "casas", name: "Mansão Tropical", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-tropical-exterior-piscina.webp", "/assets/mansao-tropical-exterior-jardim.webp", "/assets/mansao-tropical-interior.webp"], text: "Arquitetura contemporânea cercada por palmeiras, áreas externas amplas, piscina panorâmica e ambientes internos pensados para lazer e recepções.", nightText: "Uma sequência de fotografias da piscina mostra luzes em cômodos que constavam como desocupados naquela noite." },
   { category: "penthouses", name: "Penthouse Grand Valley", label: "Cobertura familiar", location: "Sandy Shores", rooms: "4 quartos", images: ["/assets/penthouse-4-quartos.webp"], text: "Uma cobertura espaçosa com cozinha clássica e ambientes para receber todo o grupo.", nightText: "O anúncio confirma quatro quartos. Um inventário antigo, porém, descreve móveis pertencentes a um quinto dormitório." },
   { category: "penthouses", name: "Penthouse Vista Norte", label: "Cobertura compacta", location: "Sandy Shores", rooms: "1 quarto", images: ["/assets/penthouse-1-quarto.webp"], text: "Planta funcional, cozinha contemporânea e uma localização central para morar sozinho.", nightText: "O laudo de vistoria cita louça para duas pessoas, embora o antigo contrato tivesse apenas um morador." },
@@ -287,6 +287,7 @@ export default function Home() {
   const [secretRotation, setSecretRotation] = useState(0);
   const [secretDragging, setSecretDragging] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const smileAudioRef = useRef<HTMLAudioElement>(null);
   const nightSoundPlayedRef = useRef(false);
   const horrorContextRef = useRef<AudioContext | null>(null);
   const musicWasPlayingRef = useRef(false);
@@ -454,6 +455,7 @@ export default function Home() {
         setSeaWitchOpen(false);
         setSecretDragging(false);
         stopHorrorAmbience();
+        stopSmileMusic();
         const audio = audioRef.current;
         if (audio && musicWasPlayingRef.current) {
           audio.volume = 0.07;
@@ -488,6 +490,13 @@ export default function Home() {
     const context = horrorContextRef.current;
     horrorContextRef.current = null;
     if (context && context.state !== "closed") void context.close();
+  }
+
+  function stopSmileMusic() {
+    const smileAudio = smileAudioRef.current;
+    if (!smileAudio) return;
+    smileAudio.pause();
+    smileAudio.currentTime = 0;
   }
 
   function startHorrorAmbience() {
@@ -724,11 +733,17 @@ export default function Home() {
 
   const openSmileSecret = () => {
     const audio = audioRef.current;
+    const smileAudio = smileAudioRef.current;
     musicWasPlayingRef.current = Boolean(audio && !audio.paused);
     if (audio && !audio.paused) audio.pause();
+    stopHorrorAmbience();
+    if (smileAudio) {
+      smileAudio.pause();
+      smileAudio.currentTime = 0;
+      smileAudio.volume = .07;
+      void smileAudio.play().catch(() => undefined);
+    }
     setDistortionActive(true);
-    playBellSound();
-    startArchiveAmbience();
     window.setTimeout(() => setDistortionActive(false), 1650);
     window.setTimeout(() => setArchiveReportOpen(true), 420);
   };
@@ -737,6 +752,7 @@ export default function Home() {
     setArchivePhotoOpen(false);
     setArchiveReportOpen(false);
     stopHorrorAmbience();
+    stopSmileMusic();
     const audio = audioRef.current;
     if (audio && musicWasPlayingRef.current) {
       audio.volume = .07;
@@ -853,6 +869,7 @@ export default function Home() {
       </div>
       {distortionActive && <div className="distortion-flash" aria-hidden="true"><span>VOCÊ FOI VISTO</span></div>}
       <audio ref={audioRef} src="/assets/velvet-dollhouse-low.ogg" loop preload="auto" playsInline />
+      <audio ref={smileAudioRef} src="/assets/the-web-of-mr.mp3" loop preload="auto" playsInline />
       <button className="music-control" type="button" onClick={toggleMusic} aria-pressed={musicOn} aria-label={musicOn ? "Pausar música ambiente" : "Tocar música ambiente"}>
         <span aria-hidden="true">{musicOn ? "♫" : "♩"}</span>{musicOn ? "Música baixa" : "Tocar ambiente"}
       </button>
