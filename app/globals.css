@@ -1160,3 +1160,9 @@ html[data-editor-preview="true"] .personal-editor-link{display:none}
 .psychiatric-polaroid{display:block;width:100%;margin:0;padding:0!important;border:0;background:transparent!important;box-shadow:none!important;color:#493a2e;cursor:zoom-in;transform:none!important}.psychiatric-polaroid img{display:block;width:100%;height:auto!important;max-height:none!important;object-fit:contain!important}.psychiatric-polaroid span{display:block;margin-top:.7rem;font:italic .82rem/1.4 Georgia,serif;text-align:center}
 .archive-photo-lightbox{z-index:1100;background:rgba(2,3,3,.96)}.archive-photo-lightbox img{display:block;max-width:min(1180px,94vw)!important;max-height:90svh!important;object-fit:contain;filter:drop-shadow(0 28px 55px rgba(0,0,0,.62))}
 @media(max-width:760px){.smile-case-file{padding:2.8rem 1.15rem 1.6rem!important}.smile-case-file::before{display:none!important}.smile-case-header h3{font-size:clamp(1.05rem,5.2vw,2rem)!important}.secret-archive-modal>.modal-close{position:absolute;right:.5rem;top:.5rem}}
+
+/* Legibilidade do jornal no modo escuro. */
+.dark-mode .newspaper-inner :is(.news-read-more,.newspaper-editions button,.newspaper-back-button){color:#fff2dc!important;border-color:#b9a68a!important}
+.dark-mode .newspaper-inner .news-read-more{background:rgba(255,255,255,.07)!important;padding:.6rem .75rem!important}
+.dark-mode .newspaper-inner :is(.newspaper-secondary-feature,.newspaper-pousada-card) img{filter:brightness(1.32) saturate(1.08) contrast(1.04)!important}
+.postcard-entrance small{max-width:min(760px,92vw);line-height:1.7;text-align:center}

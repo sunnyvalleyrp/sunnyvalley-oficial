@@ -144,7 +144,7 @@ type Property = { category: string; name: string; label: string; location: strin
 const properties: Property[] = [
   { category: "casas", name: "Mansão Blackwood", label: "Casa premium", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-blackwood-exterior.webp", "/assets/mansion-blackwood-interior.webp"], text: "Arquitetura moderna integrada à montanha, interior amplo, deck privativo e acesso direto às águas do vale.", nightText: "Uma fotografia do antigo proprietário mostra uma porta hoje substituída por uma parede." },
   { category: "casas", name: "Mansão Serenity", label: "Mansão costeira", location: "Paleto Bay", rooms: "", images: ["/assets/azurecliff-estate-exterior.webp", "/assets/azurecliff-estate-interior.webp"], text: "Uma residência contemporânea à beira-mar, com fachada panorâmica, piscina, amplos terraços e interiores de pé-direito duplo voltados para a costa de Paleto.", nightText: "Uma fotografia noturna das paredes de vidro parece refletir outra fachada atrás do fotógrafo. A casa estava vazia quando a imagem foi registrada." },
-  { category: "casas", name: "Mansion Red", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-red-exterior.webp", "/assets/mansion-red-interior.webp"], text: "Uma residência marcante de arquitetura contemporânea, fachada vermelha, piscina panorâmica e amplas áreas de convivência voltadas para a paisagem. O interior combina linhas elegantes, iluminação suave e grandes janelas para quem procura conforto com personalidade.", nightText: "Em algumas noites, o reflexo vermelho da piscina permanece aceso mesmo depois que toda a casa é desligada." },
+  { category: "casas", name: "Mansion Red — Mansão Red", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansion-red-exterior.webp", "/assets/mansion-red-interior.webp"], text: "Uma residência marcante de arquitetura contemporânea, fachada vermelha, piscina panorâmica e amplas áreas de convivência voltadas para a paisagem. O interior combina linhas elegantes, iluminação suave e grandes janelas para quem procura conforto com personalidade.", nightText: "Em algumas noites, o reflexo vermelho da piscina permanece aceso mesmo depois que toda a casa é desligada." },
   { category: "casas", name: "Mansão Tropical", label: "Mansão contemporânea", location: "Paleto Bay", rooms: "", images: ["/assets/mansao-tropical-exterior-piscina.webp", "/assets/mansao-tropical-exterior-jardim.webp", "/assets/mansao-tropical-interior.webp"], text: "Arquitetura contemporânea cercada por palmeiras, áreas externas amplas, piscina panorâmica e ambientes internos pensados para lazer e recepções.", nightText: "Uma sequência de fotografias da piscina mostra luzes em cômodos que constavam como desocupados naquela noite." },
   { category: "penthouses", name: "Penthouse Grand Valley", label: "Cobertura familiar", location: "Sandy Shores", rooms: "4 quartos", images: ["/assets/penthouse-4-quartos.webp"], text: "Uma cobertura espaçosa com cozinha clássica e ambientes para receber todo o grupo.", nightText: "O anúncio confirma quatro quartos. Um inventário antigo, porém, descreve móveis pertencentes a um quinto dormitório." },
   { category: "penthouses", name: "Penthouse Vista Norte", label: "Cobertura compacta", location: "Sandy Shores", rooms: "1 quarto", images: ["/assets/penthouse-1-quarto.webp"], text: "Planta funcional, cozinha contemporânea e uma localização central para morar sozinho.", nightText: "O laudo de vistoria cita louça para duas pessoas, embora o antigo contrato tivesse apenas um morador." },
@@ -155,7 +155,7 @@ const properties: Property[] = [
 const vipPlans = [
   { name: "Turista", price: "R$ 100", mark: "Primeira visita", description: "Para quem está chegando e quer conhecer SunnyValley com calma, descobrindo a cidade, seus encontros e os primeiros capítulos de uma nova história." },
   { name: "Morador", price: "R$ 250", mark: "Seu lugar no vale", description: "Para quem decidiu ficar, criar raízes e fazer parte da rotina, das histórias e da comunidade que mantém SunnyValley viva." },
-  { name: "1998", price: "R$ 400", mark: "História da cidade", featured: true, description: "Um passe inspirado no ano que marcou SunnyValley, pensado para quem quer carregar a identidade e a tradição da cidade em sua própria jornada." },
+  { name: "1898", price: "R$ 400", mark: "História da cidade", featured: true, description: "Um passe inspirado no ano de fundação de SunnyValley, pensado para quem quer carregar a identidade e a tradição da cidade em sua própria jornada." },
   { name: "Férias Perfeitas", price: "R$ 550", mark: "Uma temporada inesquecível", description: "Para viver SunnyValley por inteiro, aproveitar cada paisagem e transformar a temporada no vale em uma lembrança difícil de deixar para trás." },
 ];
 
@@ -847,8 +847,17 @@ export default function Home() {
       setNewspaperTurning(false);
     }, 520);
   };
-  const showNewspaperStory = (story: NewspaperStoryKey) => turnNewspaper(() => setNewspaperPage(story));
-  const showNewspaperCover = () => turnNewspaper(() => setNewspaperPage(null));
+  const scrollToNewspaperTop = () => window.requestAnimationFrame(() => window.requestAnimationFrame(() => {
+    document.getElementById("jornal")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  const showNewspaperStory = (story: NewspaperStoryKey) => turnNewspaper(() => {
+    setNewspaperPage(story);
+    scrollToNewspaperTop();
+  });
+  const showNewspaperCover = () => turnNewspaper(() => {
+    setNewspaperPage(null);
+    scrollToNewspaperTop();
+  });
   return (
     <main className={`site-shell ${darkMode ? "dark-mode" : "light-mode"} ${distortionActive ? "archive-distorting" : ""} ${entered ? "site-entered" : "entrance-pending"}`}>
       <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -860,7 +869,7 @@ export default function Home() {
           </div>
           <p>Você recebeu um cartão-postal de SunnyValley.</p>
           <button type="button" onClick={() => setEntered(true)}>Entrar em SunnyValley <span aria-hidden="true">→</span></button>
-          <small>Turismo oficial <i>•</i> Est. 1898</small>
+          <small>Turismo oficial desde 1998 <i>•</i> P.S.: recomendamos alternar entre os modos claro e escuro.</small>
         </section>
       )}
       <div className="dark-atmosphere" aria-hidden="true"><span /><span /><span /></div>
@@ -1194,7 +1203,7 @@ export default function Home() {
           <div className="section-decor vip-page-decor" aria-hidden="true"><img src="/assets/decor-18.webp" alt="" /><img src="/assets/decor-16.webp" alt="" /></div>
           <div className="section vip-inner">
             <div className="section-heading vip-heading"><div><span className="section-label light">Passagens e residências</span><em>Seu próximo capítulo espera por você.</em><h2>Sua<br />história<br />começa<br />aqui.</h2></div><p>Mais que uma visita, uma escolha. Nossos passes e documentos de residência abrem as portas de SunnyValley para experiências inesquecíveis — e para uma vida que pode, se você quiser, ser sua.</p><a className="button primary" href={SUPPORT_CHANNEL} target="_blank" rel="noreferrer">Solicitar passagem <span aria-hidden="true">→</span></a><p className="vip-travel-line">Entre montanhas, costas e histórias, existe um vale chamando você de lar.</p></div>
-            <div className="vip-grid">{vipPlans.map((plan,index) => <article className={`vip-card ${plan.featured ? "featured" : ""}`} key={plan.name}>{plan.featured && <span className="recommended">Mais escolhido</span>}<div className="vip-code">{String(index === 2 ? 1998 : 1898).padStart(7,"0")}</div><div className="vip-top"><span>{plan.mark}</span><h3>{plan.name}</h3><div className="vip-price-row"><strong>{plan.price}</strong></div></div><p className="vip-description">{plan.description}</p><span className="vip-stamp" aria-hidden="true"><img src="/assets/seal-mountain-lighthouse.png" alt="" /></span><a href={SUPPORT_CHANNEL} target="_blank" rel="noreferrer" onClick={() => void copyTicketMessage(`o VIP ${plan.name}`)}>Solicitar no Discord</a></article>)}</div>
+            <div className="vip-grid">{vipPlans.map((plan) => <article className={`vip-card ${plan.featured ? "featured" : ""}`} key={plan.name}>{plan.featured && <span className="recommended">Mais escolhido</span>}<div className="vip-code">{String(1898).padStart(7,"0")}</div><div className="vip-top"><span>{plan.mark}</span><h3>{plan.name}</h3><div className="vip-price-row"><strong>{plan.price}</strong></div></div><p className="vip-description">{plan.description}</p><span className="vip-stamp" aria-hidden="true"><img src="/assets/seal-mountain-lighthouse.png" alt="" /></span><a href={SUPPORT_CHANNEL} target="_blank" rel="noreferrer" onClick={() => void copyTicketMessage(`o VIP ${plan.name}`)}>Solicitar no Discord</a></article>)}</div>
             <figure className="vip-cinematic"><img src="/assets/placa.webp" alt="Vista cinematográfica de SunnyValley" /></figure>
             <p className="vip-disclaimer">Cada passe representa uma forma diferente de viver SunnyValley. Valores e disponibilidade são confirmados durante o atendimento.</p>
           </div>
