@@ -4,6 +4,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "SunnyValley — Turismo, Lore, Regras e VIPs",
   description: "Olá, turista. Conheça SunnyValley, consulte as regras oficiais, encontre seu imóvel e compre sua passagem para a cidade.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false, noimageindex: true },
+  },
   other: { "codex-preview": "development" },
   icons: { icon: "/assets/emblema-sunnyvalley.webp", shortcut: "/assets/emblema-sunnyvalley.webp" },
 };
@@ -11,3 +17,4 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="pt-BR"><body>{children}</body></html>;
 }
+
