@@ -149,7 +149,6 @@ const properties: Property[] = [
   { category: "penthouses", name: "Penthouse Grand Valley", label: "Cobertura familiar", location: "Sandy Shores", rooms: "4 quartos", images: ["/assets/penthouse-4-quartos.webp"], text: "Uma cobertura espaçosa com cozinha clássica e ambientes para receber todo o grupo.", nightText: "O anúncio confirma quatro quartos. Um inventário antigo, porém, descreve móveis pertencentes a um quinto dormitório." },
   { category: "penthouses", name: "Penthouse Vista Norte", label: "Cobertura compacta", location: "Sandy Shores", rooms: "1 quarto", images: ["/assets/penthouse-1-quarto.webp"], text: "Planta funcional, cozinha contemporânea e uma localização central para morar sozinho.", nightText: "O laudo de vistoria cita louça para duas pessoas, embora o antigo contrato tivesse apenas um morador." },
   { category: "penthouses", name: "Penthouse Sunset", label: "Cobertura contemporânea", location: "Sandy Shores", rooms: "2 quartos", images: ["/assets/penthouse-2-quartos.webp"], text: "Sala confortável, dois quartos e iluminação acolhedora próxima aos serviços de Sandy.", nightText: "Vizinhos relatam ver as cortinas fechadas em noites nas quais o imóvel consta como vazio." },
-  { category: "casas", name: "Casas em Sandy e Paleto", label: "Coleção residencial", location: "Sandy Shores • Paleto Bay", rooms: "", images: ["/assets/casa-sandy-desert-rose.webp", "/assets/casa-sandy-palm-haven.webp", "/assets/casa-sandy-interior.webp"], text: "Mais de vinte casas estão disponíveis entre Sandy e Paleto. As fotografias mostram apenas alguns exemplos; cada imóvel possui fachada, localização e opções de interior próprias para você escolher.", nightText: "Mais de vinte casas continuam disponíveis. Algumas parecem ocupadas nas fotografias, mesmo quando os registros dizem o contrário." },
 ];
 
 const vipPlans = [
@@ -1032,7 +1031,6 @@ export default function Home() {
                 <h3>Famílias do vale</h3>
                 <p>Os moradores representam trabalhadores, pescadores, comerciantes e famílias que vivem em SunnyValley há várias gerações.</p>
                 <ol>
-                  <li><strong>Conheça costumes, não todas as respostas.</strong> Cantigas, histórias e recomendações locais não revelam a verdade completa.</li>
                   <li><strong>Preserve a hospitalidade.</strong> Receba turistas com educação e mantenha a aparência tranquila da cidade.</li>
                   <li><strong>Faça o desconforto ser sutil.</strong> Sorrisos estranhos, mudanças de assunto e silêncios funcionam melhor que revelações imediatas.</li>
                   <li>Não invente parentesco com figuras importantes da lore sem autorização.</li>
@@ -1158,7 +1156,7 @@ export default function Home() {
           </div>
           <div className="section property-inner">
             <div className="property-tabs" role="tablist" aria-label="Tipos de imóveis">
-              {[['todos', 'Todos'], ['casas', 'Casas em Sandy e Paleto'], ['penthouses', 'Penthouses']].map(([id, label]) => <button type="button" role="tab" aria-selected={activeProperty === id} className={activeProperty === id ? "active" : ""} onClick={() => setActiveProperty(id)} key={id}>{label}</button>)}
+              {[['todos', 'Todos'], ['casas', 'Casas'], ['penthouses', 'Penthouses']].map(([id, label]) => <button type="button" role="tab" aria-selected={activeProperty === id} className={activeProperty === id ? "active" : ""} onClick={() => setActiveProperty(id)} key={id}>{label}</button>)}
             </div>
             <p className="property-intro"><strong>Imóveis disponíveis — venha morar conosco.</strong> As casas de Paleto e Sandy possuem opções de interiores diferentes; você escolhe o estilo que melhor combina com sua história.</p>
             <div className="property-grid" aria-live="polite">
