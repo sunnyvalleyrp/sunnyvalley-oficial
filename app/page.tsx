@@ -1031,6 +1031,7 @@ export default function Home() {
                 <h3>Famílias do vale</h3>
                 <p>Os moradores representam trabalhadores, pescadores, comerciantes e famílias que vivem em SunnyValley há várias gerações.</p>
                 <ol>
+                  <li><strong>Conheça costumes, não todas as respostas.</strong> Cantigas, histórias e recomendações locais não revelam a verdade completa.</li>
                   <li><strong>Preserve a hospitalidade.</strong> Receba turistas com educação e mantenha a aparência tranquila da cidade.</li>
                   <li><strong>Faça o desconforto ser sutil.</strong> Sorrisos estranhos, mudanças de assunto e silêncios funcionam melhor que revelações imediatas.</li>
                   <li>Não invente parentesco com figuras importantes da lore sem autorização.</li>
